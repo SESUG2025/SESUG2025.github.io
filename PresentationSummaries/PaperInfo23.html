@@ -1691,7 +1691,17 @@ approach for quality control</td>
 <tr>
 <td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Cally Davidson,
 Eric Howard</td>
-<td class="r data" style=" font-family: Montserrat; font-size: 14pt;">        .</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Accurate and complete mapping of raw clinical data to Study Data Tabulation Model (SDTM) domains is
+essential for high-quality regulatory submissions. A common oversight occurs when raw datasets contain
+observations that appear only later in the study, such as pregnancy data within the RP domain, leading to
+incomplete or missing SDTM domains if initial mapping was based on earlier data snapshots. This paper
+highlights a SAS macro, called search_raw, developed to automate the quality control (QC) process by
+ensuring all relevant raw data sources with observed records are mapped to SDTM domains. The macro
+checks for the presence of data from raw sources in the .SAS logs and summarizes SDTM input source
+datasets, while flagging any unmapped data streams. The RP domain serves as a case study, illustrating
+how subjects with no pregnancies reported early in the study can be missed if mappings aren&#39;t revisited. By
+automating these checks, the macro enhances traceability, reduces manual review, and ensures complete
+a</td>
 </tr>
 </tbody>
 </table>

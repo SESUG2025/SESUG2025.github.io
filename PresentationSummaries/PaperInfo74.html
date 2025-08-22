@@ -1690,7 +1690,18 @@ and R Functions</td>
 <tbody>
 <tr>
 <td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Chen Ling</td>
-<td class="r data" style=" font-family: Montserrat; font-size: 14pt;">        .</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Lazy evaluation is a powerful technique that can optimize code execution by deferring evaluations until their
+results are required, thus enhancing efficiency. In most modern programming languages, like R, lazy
+evaluation is commonly applied to function arguments. However, the application of lazy evaluation in SAS
+has not been extensively explored. This paper focuses on the mechanisms of lazy evaluation in SAS
+MACROs and R functions, offering a comparative analysis of the underlying principles that drive these
+processes.
+
+R&#39;s lazy evaluation is driven by a data structure called Promise, which postpones evaluation
+and does not occupy memory until the value is needed, utilizing a call-by-need strategy. SAS, on the other
+hand, achieves lazy evaluation through its symbol tables, employing memory to store parameters, and
+operates on a call-by-name basis. These discrepancies in lazy evaluation strategies can notably impact the
+results of R functions and SAS MACROs. By examining these distinct approaches, the paper i</td>
 </tr>
 </tbody>
 </table>

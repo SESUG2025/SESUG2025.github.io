@@ -1691,7 +1691,16 @@ over time overall and by group</td>
 <tr>
 <td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Alexis Wardell,
 Allison Deal</td>
-<td class="r data" style=" font-family: Montserrat; font-size: 14pt;">        .</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Research studies often involve continuous outcomes, for example survey instrument scores measured
+repeatedly over time. We see this in our cancer research when patients complete surveys before, during,
+and after an intervention. Our motivating example evaluates an intervention vs. usual care, within a
+randomized trial, and compares scores between groups at 3 timepoints. PROC GENMOD is used to fit
+marginal linear models with generalized estimating equation methods to account for potential clustering
+within patients and allow for missingness. The longitudinal model includes time, group (intervention vs.
+control), and the interaction between time and group. There are many interesting comparisons that can be
+made from this type of study, including 1) how the outcome scores change over time, 2) do the outcome
+scores change differently over time between groups, and 3) are scores different between groups at different
+timepoints. Additionally, consideration must be made in treating time as continuous or categorical.</td>
 </tr>
 </tbody>
 </table>

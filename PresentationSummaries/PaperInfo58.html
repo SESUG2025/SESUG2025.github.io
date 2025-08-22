@@ -1690,7 +1690,13 @@ PROC OPTLOAD</td>
 <tbody>
 <tr>
 <td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">John King</td>
-<td class="r data" style=" font-family: Montserrat; font-size: 14pt;">        .</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Abstract
+Managing system options in SAS macros is often error-prone, especially when global settings are
+altered temporarily. This paper presents a macro %u_optstore that allows for the safe saving and selective
+restoration of only the SAS options that have changed. By combining PROC OPTSAVE, PROC
+COMPARE, and PROC OPTLOAD, this approach minimizes risk, supports nested macros, and provides
+debugging transparency. It also avoids known issues associated with full option reloads, such as unwanted
+resets to session defaults.</td>
 </tr>
 </tbody>
 </table>

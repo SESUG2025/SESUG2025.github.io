@@ -1692,7 +1692,17 @@ Initialization Operations</td>
 <tbody>
 <tr>
 <td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Troy Hughes</td>
-<td class="r data" style=" font-family: Montserrat; font-size: 14pt;">        .</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Getters and setters are common in some object-oriented programming (OOP) languages such as C++ and
+Java, where “getter” functions retrieve values and “setter” functions initialize (or modify) variables. In Java,
+for example, getters and setters are constructed as conduits to private classes, and facilitate data
+encapsulation by restricting variable access. Conversely, the SAS® language lacks classes, so SAS global
+macro variables are typically utilized to maintain and access data across multiple DATA steps and
+procedures. Unlike an OOP program that can categorize variables across multiple user-defined classes,
+however, SAS maintains only one global symbol table in which global macro variables can be maintained.
+Additionally, maintaining and accessing macro variables can be difficult when quotation marks,
+ampersands, percentage signs, and other special characters exist in the data. This text introduces
+user-defined getter functions and setter subroutines designed using the FCMP procedure, which enable
+data loo</td>
 </tr>
 </tbody>
 </table>
