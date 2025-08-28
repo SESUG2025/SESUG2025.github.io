@@ -1,0 +1,3373 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="Generator" content="SAS Software Version V.04.00, see www.sas.com">
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+.accessiblecaption
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.activelink
+{
+  color: #800080;
+}
+.aftercaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  padding-top: 4pt;
+}
+.batch
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: 'SAS Monospace', 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  padding: 7px;
+}
+.beforecaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.body
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.bodydate
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: right;
+  vertical-align: top;
+  width: 100%;
+}
+.bycontentfolder
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.byline
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.bylinecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.caption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.cell
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.container
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.contentfolder
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contentprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contents
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.contentsdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.contenttitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.continued
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  width: 100%;
+}
+.data
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasis
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasisfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.dataempty
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datafixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datastrong
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.datastrongfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.date
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.document
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+a:link {
+color:#0000FF
+}
+a:visited {
+color:#800080
+}
+a:active {
+color:#800080
+}
+.errorbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.errorcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.errorcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.extendedpage
+{
+  background-color: #FAFBFE;
+  border: 1pt solid #000000;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+.fatalbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.fatalcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.fatalcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.folderaction
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.footer
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footeremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footeremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.footerstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.frame
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.graph
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.header
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headeremphasis
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headeremphasisfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.headersandfooters
+{
+  background-color: #EDF2F9;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrong
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrongfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.heading1
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.heading2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.heading3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.heading4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.heading5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.heading6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.index
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.indexaction
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.indextitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.layoutcontainer
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.layoutregion
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.linecontent
+{
+  background-color: #FAFBFE;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.link
+{
+  color: #0000FF;
+}
+.list
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.list10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.list3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.listitem10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.listitem3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.note
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notebanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.notecontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notecontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.output
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.pageno
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+}
+.pages
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.pagesdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.pagesitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.pagesproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagesprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagestitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.paragraph
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.parskip
+{
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.prepage
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+}
+.proctitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.proctitlefixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooter
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooteremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooteremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooterempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowfooterstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheader
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderemphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderemphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowheaderstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemfooter
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemtitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systitleandfootercontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.table
+{
+  border-bottom-width: 0px;
+  border-collapse: collapse;
+  border-color: #C1C1C1;
+  border-left-width: 1px;
+  border-right-width: 0px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 1px;
+}
+.top_stacked_value
+{
+  padding-bottom: 1px;
+  border: 0;
+}
+.middle_stacked_value
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 0;
+}
+.bottom_stacked_value
+{
+  padding-top: 1px;
+  border: 0;
+}
+.titleandnotecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.titlesandfooters
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.usertext
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.visitedlink
+{
+  color: #800080;
+}
+.warnbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.warncontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.warncontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+</head>
+<body class="body">
+
+<div class="branch">
+<a name="IDX"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="l systemtitle" style=" font-family: 'Montserrat Black'; font-size: 18pt; font-style: normal; font-weight: normal;">Using SAS to Show the Distribution and Severity of COVID-19</td>
+</tr>
+<tr>
+<td class="l systemtitle2" style=" font-family: Montserrat; font-size: 16pt; font-style: normal; font-weight: normal;">September 24, 2025: 3:00 PM - .</td>
+</tr>
+<tr>
+<td class="l systemtitle3" style=" font-family: Montserrat; font-size: 16pt; font-style: normal; font-weight: normal;">Visualizations and Reporting (VR), Executive Dining Room #2</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c header" style=" background-color: #000000; color: #FFFFFF; font-family: Montserrat; font-size: 14pt; width: 2.5in;" scope="col">Authors</th>
+<th class="c header" style=" background-color: #000000; color: #FFFFFF; font-family: Montserrat; font-size: 14pt;" scope="col">Abstract</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Xiao Xiao</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">In the pharmaceutical industry, statistical programmers (SPs) encounter a diverse array of career opportunities, with
+trajectories that may diverge or converge depending on individual goals and experiences. This paper provides a comparative
+analysis of statistical programming in two primary environments: Contract Research Organizations (CROs) and pharmaceutical
+companies (Pharmas), focusing on the perspectives of in-house employees. It highlights the similarities and differences in work
+content, approaches, work styles, personal development, and work-life balance in these settings. Drawing on a decade of
+experience in a CRO—where the author advanced from contributing programmer to lead programmer and manager before
+moving to a Pharma—the paper emphasizes the importance of making informed career choices. Both CROs and Pharmas
+present distinct advantages and challenges, and the choice between them depends on personal career aspirations,
+preferences for work-life balance, and the level of involvement desired in</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Anil Jangili</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">In the rapidly evolving field of data science and analytics, statistical programmers play a crucial role in transforming raw data
+into actionable insights. As organizations increasingly rely on data-driven decision-making, the demand for skilled statistical
+programmers continues to rise. However, technical expertise alone is not enough to thrive in this competitive landscape. To
+advance in their careers, statistical programmers must also develop leadership skills. This paper explores how statistical
+programmers can grow into leadership roles and make a significant impact within their organizations.
+
+1. Embrace
+Continuous Learning
+The field of statistics and programming is constantly changing, with new tools, technologies, and
+methodologies emerging regularly. To grow as a leader, statistical programmers should commit to continuous learning.
+
+2.
+Develop Soft Skills
+While technical skills are essential, soft skills are equally important for effective leadership. Statistical
+programmers should focus on developin</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Josh Horstman</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">While many statisticians and programmers are content with a traditional employment setting, others yearn for the freedom and
+flexibility that come with being an independent consultant. While this can be a tremendous benefit, there are many details to
+consider. This paper will provide an overview of consulting as a statistician or programmer. We&#39;ll discuss the advantages and
+disadvantages of consulting, getting started, finding work, operating your business, and various legal, financial, and logistical
+issues. The paper has been recently updated to reflect the new realities of independent consulting in 2025 and beyond.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Cali Davis</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Today’s college students are typically resistant to read a textbook, take notes, or study provided course materials in a world
+where artificial intelligence can do it for them.  But let’s take it back to an “Ages 6 and Up” time.  Using simple dollar store
+puzzles, the concepts of data mining come alive.  Topics such as variable type, error, descriptive and predictive analytics
+become tangible aspects of learning.  Partner this with the use of SAS Viya in the classroom, and you have a collaboration that
+makes learning fun.
+
+In this session, participants will see how to explore a variety of data mining topics while using SAS Viya
+to analyze the data.  This session will also include a demonstration of how the puzzle becomes an opportunity for data
+collection, visualization, and analysis.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Aaron Brown</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">This paper serves primarily as an introduction and encouragement to SAS programmers who are interested in learning another
+language.  Using the free and open-source R and Python languages as examples, we discuss learning these languages and
+give an example of how to write the same (relatively simple) program in SAS, R, and Python.  We also discuss some of the
+more powerful tools to leverage multiple languages, although a thorough discussion is beyond the scope of this paper.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Zhongshan Cheng</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">SAS OnDemand for Academics (ODA) enables free access to SAS software for academic users via a web browser. Despite its
+convenience, the platform limits advanced users by disabling X commands, which are commonly used for tasks like file I/O and
+local scripting. SASPy, a Python package developed by SAS Institute, enables local Python environments to interface with
+remote SAS servers, including ODA. However, it is difficult for users to integrate SASPy with SAS ODA across multiple
+different computer systems, including macOS, Linux and Windows systems. This severely affects the popularities of both SAS
+ODA and SASPy. To address this issue, this paper provides platform-specific installation and configuration instructions for
+Windows, macOS, and Linux systems, along with customization tips to enhance HTML output formatting and incorporate
+user-defined SAS macros hosted on GitHub that are specifically written to handle compressed large data sets. By combining
+the flexibility of Python, running system commands via Py</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Jim Blum</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Over the past two decades, the integration of SAS into academic instruction has evolved in tandem with shifts in computing
+infrastructure and pedagogical priorities. This paper compares use of SAS across several deployment models—including SAS
+OnDemand for Academics and SAS Viya for Learners—highlighting their respective impacts on teaching effectiveness,
+accessibility, and student engagement.
+Local installations, once the standard, offer full functionality but requir significant IT
+support and hardware investment, often limiting flexibility and scalability. Server-based SAS environments improved resource
+management and centralized control but introduced complexities in access and maintenance. SAS OnDemand for Academics
+marked a pivotal shift toward cloud-based accessibility, enabling students to engage with SAS from virtually any location using
+a modern, browser-based interface. Most recently, SAS Viya for Learners has further transformed the landscape, offering a
+broader base of SAS tools and enhanced suppo</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Jim Blum</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">In the evolving landscape of data analytics, the ability to write modular, reusable, and dynamic code is essential. This
+presentation introduces students to the power of the SAS macro language through the practical lens of building custom steps in
+SAS. By starting with the goal of putting a user interface in front of familiar procedural code, students gain an appreciation for
+how automation and parameterization can enhance their analytical workflows, a natural motivator for learning macro
+language.
+
+The session will walk through the creation of custom steps—from concept to implementation—creating
+opportunities to integrate macro variables, conditional logic, and macro functions. Along the way, we will demystify key macro
+language features and provide best practices for writing maintainable and efficient code. Designed with pedagogy in mind, this
+approach not only reinforces core programming concepts but also empowers students to think critically about code design and
+reusability.
+
+Attendees will leave with pr</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Sriya Venkat</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">SAS provides a wide range of procedures for modeling continuous, binary, and count data. In this paper, we will analyze the
+uses of PROC REG, PROC GLM, PROC GENMOD, and PROC MIXED. These procedures, though they sometimes have
+overlaps in output, significantly differ in their methods of estimation, complexity, and underlying assumptions. This paper builds
+on previous comparative work and develops a practical guide for biostatisticians working with real-world health data. Using
+examples from various clinical trials and epidemiological studies, we demonstrate how estimation, interpretability, and fit are
+impacted by model choice - especially when we have causes of non-independence, non-normality, and repeated measures.
+We evaluate these four procedures on case studies involving blood pressure monitoring, adverse event counts, and
+longitudinal biomarker data. The result is a decision-support framework that helps researchers select and apply the most
+appropriate procedure based on study design, outcome type, and e</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Duha Khan,  Sriya Venkat,  Sydney McDermott</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">SAS offers many procedures that can be used to conduct predictive analysis. PROC GLM is one of the older tools used to fit
+general linear models to datasets. While it includes many options that allow for the implementation of classes, subgroups,
+weighting, and more, there are times when another, newer procedure may be preferred. For example, since PROC GLM is not
+a high performance procedure,  it is sometimes better to use a high-performance alternative like PROC HPREG, which is better
+suited for larger datasets. Additionally, PROC GLM requires manual variable selection from the programmer. While this can be
+useful at times, there are other cases where the automated selection with PROC GLMSELECT can prove to be far more
+efficient. This paper explores the pros and cons of these procedures with examples to help users choose the most appropriate
+predictive modeling tool for real-world applications.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Edward Boykis</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">This paper outlines the steps involved in developing the Efficacy Analysis ADEFF Dataset for vaccine studies by generating the
+intermediate dataset and subsequently using it to derive efficacy endpoints. This method allows for straightforward
+customization of endpoints. The significant advantage of this approach is that it gathers all essential symptoms, indicators, and
+dates into a single intermediate dataset, enabling the most efficient, rapid, and traceable derivation of endpoints. This capability
+enables programmers to generate efficacy endpoints in a standardized and consistent manner, ensuring accuracy and
+efficiency. This article provides comprehensive explanation, accompanied by a data flow diagram and the code snippets.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Neeta Shenvi</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">ABSTRACT
+
+A Samsung S21 mobile is used to take nail photos from preterm infants’ six anatomic regions (left and right
+fingernail, toe nail, and palm) at NICU bedside.
+
+Study nurse takes infant nail pictures in NICU bedside using a smart phone,
+identify a region of interest (a rectangle) on the picture. The phone app converts pixel intensities into numerical values for color
+(red, green, blue) and creates a text file.   The text file from phone app is then uploaded to data coordinating center servers for
+further processing.
+
+The phone app generated  ~1700 txt files from 89 infants (weekly longitudinal nail pictures for first 13
+weeks of life during their stay in the NICU).
+
+We describe SAS 9.4 code to manage and merge these files to create analytic
+datasets.   These datasets are further merged with infant longitudinal characteristics variables that are saved in a separate
+database.
+
+Our long term goal is to apply various image analysis algorithms on these analytic datasets to devise noninvasive
+methods to pred</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Cally Davidson,  Eric Howard</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Accurate and complete mapping of raw clinical data to Study Data Tabulation Model (SDTM) domains is essential for
+high-quality regulatory submissions. A common oversight occurs when raw datasets contain observations that appear only later
+in the study, such as pregnancy data within the RP domain, leading to incomplete or missing SDTM domains if initial mapping
+was based on earlier data snapshots. This paper highlights a SAS macro, called search_raw, developed to automate the
+quality control (QC) process by ensuring all relevant raw data sources with observed records are mapped to SDTM domains.
+The macro checks for the presence of data from raw sources in the .SAS logs and summarizes SDTM input source datasets,
+while flagging any unmapped data streams. The RP domain serves as a case study, illustrating how subjects with no
+pregnancies reported early in the study can be missed if mappings aren&#39;t revisited. By automating these checks, the macro
+enhances traceability, reduces manual review, and ensures complete a</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Tanmay Khole</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Transitioning from a blinded parent study to an open-label extension mid-study introduces significant risks to trial integrity and
+requires coordinated effort across multiple functions. This case study highlights how data management, statistical
+programming, and statistical teams collaborated to address complexities during study conduct, driven by evolving design
+requirements.
+
+The transition posed an immediate risk of unintentional unblinding and potential treatment disruption, primarily
+due to complex randomization schema. In response, the cross-functional team rapidly implemented data masking, dummy
+randomization strategies, and strict access controls to preserve the blind while ensuring uninterrupted patient treatment.
+
+The
+evolving trial design had far-reaching impacts on data operations. It necessitated updates to the electronic data capture
+system, edit checks, and data transfer specifications. Metadata, SDTM &amp; ADaM data, and reporting logic were revised to
+support parallel streams of blinded and open-</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Troy Hughes</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Last observation carried forward (LOCF) is a ubiquitous method of imputing missing values in longitudinal studies, and is
+commonly implemented when a subject (i.e., a patient or participant) misses a scheduled visit, and data cannot be collected (or
+generated). In general, the last “valid” value from a previous visit is retained for the later visit on which the data could not be
+obtained, and this conservative estimation succeeds in cases where the actual value would have been little changed. Nuanced
+criteria may stipulate which prior values count as “valid” (e.g., after the start of treatment) as well as for how long (e.g., how
+many days, visit weeks, consecutive missed visits) a value can be used to impute other values. Given these complexities,
+LOCF solutions implemented in SAS® historically adopt a procedural approach, and often require multiple DATA steps and/or
+procedures to impute data both across observations and within subjects. Conceptually, however, a functional approach can be
+envisioned in which</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Tiffany Bainter,  Maddie Hays</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Splitting SDTM (Study Data Tabulation Model) domains into multiple datasets can serve as a valuable tool, streamlining the
+process of creating and reviewing large, complex data domains.
+
+In SDTM, a general observation class domain may be split
+into separate datasets. In practice, we commonly split the Findings About (FA) and QS (Questionnaires) domains.
+
+Common
+reasons for dataset splitting include better representation of complex data, improved traceability from Case Report Forms
+(CRF) to SDTM specifications to datasets, and simplified programming and validation.
+
+Domains can be split using several
+methods, including purpose, category, or time points.
+
+Creating complaint and consistent split domains can be supported by
+programming habits in SAS to organize and check your data.
+
+This paper will cover practical tips and FAQs such as, ensuring
+consistent variable naming across split datasets, using unique identifiers (e.g., STUDYID, USUBJID,-SEQ) to link split
+datasets, updating the Define.XML file, CDISC compl</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">David Horvath</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">The use of open source components within applications is rife with difficulty and risk.
+
+The following areas are concerns in all
+organizations.
+
+•      Timeliness
+
+•      Provenance
+
+•      Correctness
+
+•      Availability
+
+In particular, what happens if
+you lose your tools or it includes malware or specifically targets your organization? How do you mitigate these dangers?
+
+In
+some ways, life is easier in highly regulated industries because those regulators limit how we can use open source components
+and tools (although those are relaxing over time).
+
+We will be reviewing these factors as well as some of the ethical issues
+involved.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Sampath Madanu</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Food and Drug Administration (FDA) has suggested the Pharma companies and CRO’s to include the Bioresearch Monitoring
+(BIMO) package as part of their regulatory submissions. This BIMO package helps FDA’s Office of Bioresearch Monitoring
+Inspectorate (OBMI) to carry out site-level inspections of clinical research sites to ensure the quality, integrity and reliability of
+data, Clinical trials are conducted as per applicable FDA’s regulations and make sure that rights, welfare of participants
+involved in clinical trial are protected. The BIMO package mainly consists of Part I (General study related information and
+specific Clinical Investigator information, Part II (Subject level listings organised by site and listing type) Part III (Site Level
+Dataset). Statistical programmer plays an important role in creation of Subject-Level Data Listings by Clinical Site, a
+Summary-Level Clinical Site Dataset (clinsite.xpt), Data definition file (define.xml) and BIMO Data Reviewer guide (bdrg.pdf)
+which are key components o</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Divya Gadde</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Managing large, raw datasets in SAS—especially those lacking metadata or proper layout documentation—often leads to
+inefficient data structures, inflated storage requirements, and slow performance. This paper presents a practical and scalable
+solution using the %RESIZE macro, designed to optimize character variable lengths by dynamically adjusting them to their
+actual maximum content length.
+
+The %RESIZE macro automates the process of:
+
+- Identifying all character variables in a
+dataset
+- Calculating their actual maximum lengths
+- Generating and applying optimized LENGTH, FORMAT, and
+INFORMAT statements
+- Producing more efficient dataset without compromising data integrity
+
+By right-sizing variables,
+organizations can significantly reduce file sizes and processing times. In one example, a dataset with 4 million records and 118
+variables saw a reduction in processing time from 51 minutes to just 4 minutes, along with notable savings in storage.
+
+This
+strategy improves performance, resource utilization, and ove</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Kirk Paul Lafler</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Joining two or more tables of data is a powerful feature in the relational model. The SQL procedure enables users to join tables
+of information quickly and easily. Linking one piece of information with another piece of information is made possible when at
+least one column is common to each table. This paper describes several join types including the importance of joins, the
+difference between the various join types (inner and outer), the creation of outer (left, right, and full) joins, the importance of the
+WHERE / ON clause(s) in creating and subsetting rows of data, the purpose of creating and using table aliases to minimize the
+number of keystrokes, and the application of set operators.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Nicole Demmel,  Alison Celigoi</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">A clear and comprehensive codebook is essential for data documentation. It ensures that users have a precise understanding
+of the meaning and context of each variable as well as its range of collected responses. Creating codebooks for larger or more
+complicated datasets can be time consuming and susceptible to error. This SAS codebook program automates the generation
+of comprehensive codebooks for structured datasets across various projects. It uses metadata to categorize variables by type
+(numeric, character, date, time), indexes them, and ensures consistent formatting and labeling. The program includes steps to
+calculate missing data percentages, generate frequency tables, and identify obsolete formats. The resulting codebook, sorted
+both sequentially and alphabetically, is exported to Excel for easy access and use. This flexible, reproducible solution
+streamlines dataset documentation, reduces manual effort, and enhances the usability of datasets for analysis in diverse
+research contexts.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Mark Jordan</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Application programming interfaces, or APIs, provide a way for diverse computer programs and systems to reliably
+communicate with each other. Representative State Transfer (ReST) APIs are the most common type of API used for
+communication via hypertext transfer protocol (HTTP). Base SAS has robust tools baked in for working with ReST APIs. This
+paper includes a brief introduction to API concepts and demonstrates:
+
+- Using PROC HTTP to submit API requests
+- Using
+the JSON and XMLV2 LIBNAME engines to work with API response results
+- Working with the World Bank API to obtain data
+in real-time</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Nicole Demmel,  Alison Celigoi</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">SAS dictionary tables provide important metadata on SAS sessions and can be used in a variety of ways. These tables can be
+queried to retrieve detailed information about libraries, datasets, variables, formats, and macros. This presentation will give an
+overview of how these tables provide useful information for data managers, whose responsibilities often include data merging
+and comprehensive data quality checks. Summary reports can be generated from interim output datasets that store the results
+of each specific data quality check, and SAS dictionary tables can be used to identify common variable names between two or
+more datasets to avoid issues before perfoming a merge. We will provide several additional use cases and examples to assist
+data managers in optimizing their SAS programs.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Richann Watson</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Programmers frequently have to deal with dates and date formats. At times, determining whether a date is in a day-month or
+month-day format can leave us confounded. Clinical Data Interchange Standards Consortium (CDISC) has implemented the
+use of the International Organization for Standardization (ISO) format, ISO® 8601, for datetimes in SDTM domains, to alleviate
+the confusion. However, converting “datetimes” from the raw data source to the ISO 8601 format is no picnic. While SAS® has
+many different functions and CALL subroutines, there is not a single magic function to take raw datetimes and convert them to
+ISO 8601. Fortunately, SAS allows us to create our own custom functions and subroutines. This paper illustrates the process of
+building a custom function with custom subroutines that takes raw datetimes in various states of completeness and converts
+them to the proper ISO 8601 format.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Richann Watson</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Within the life sciences, programmers frequently have to deal with dates in order to determine durations and number of days
+from a reference point. Within Study Data Tabulation Model (SDTM) domains, Clinical Data Interchange Standards Consortium
+(CDISC) has implemented the use of the International Organization for Standardization (ISO) format, ISO® 8601, for
+datetimes. While this helps to standardize how dates and times are captured so that there is no confusion as to what the date
+represents, it does not help from an analysis perspective. Within SDTM, these ISO dates are character dates and sometimes
+have missing components. From an analysis purposes the dates need to be converted to a numeric date and sometimes
+imputation of partial dates is needed. There are formats that can convert a complete ISO date to numeric date, but what if the
+date is a partial date. While SAS® has myriad functions, there is no function that will help with this conversion and imputation.
+Fortunately, with the use of the FCMP proced</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Rachel Straney</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">The TABULATE procedure in SAS® can be used to summarize data into structured, organized tables. This procedure can
+calculate many of the descriptive statistics that the MEANS, FREQ, and REPORT procedures do, but with the flexibility to
+display them in a customized tabulated format. At first, the syntax may seem difficult and overwhelming but with practice and
+some basic examples you can go from zero to report ready in no time. This workshop will walk participants through several
+exercises of the TABULATE procedure. Exercises will start with basic syntax to generate simple summary tables and will be
+expanded on to produce more complex tables. Participants will learn the functions of the CLASS, VAR and TABLE statements
+and how to include subtotals and totals with the keyword ALL. To make these tables &quot;report ready,&quot; exercises will also cover
+the application of formats, labels and styles.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Kelly Smith</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Numbers are rounded to simplify data or to indicate degree of measurement accuracy. Determining which rounding function is
+best in a particular case depends on several factors, including the impact on future calculations.
+
+For this presentation, a
+randomized set of experimental data has been created. The experimental data will be described with PROC MEANS to define
+baseline calculations. After defining a representative set of rounding functions, the functions will be applied to sample data prior
+to analysis with PROC MEANS. The descriptive calculations for the rounded numbers will be compared to the baseline
+calculations to examine potential impact from rounding.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Josh Horstman</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Every SAS programmer needs to know how to get a date... no, not that kind of date. This paper will cover the fundamentals of
+working with SAS date values, time values, and date/time values. Topics will include constructing date and time values from
+their individual pieces, extracting their constituent elements, and converting between various types of dates. We&#39;ll also explore
+the extensive library of built-in SAS functions, formats, and informats for working with dates and times using in-depth examples.
+Finally, you&#39;ll learn how to answer that age-old question... when is Easter next year?</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Brooke Delgoffe</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Not all data starts in SAS and a common place it goes when coming from tertiary systems is a CSV. While CSV is a great
+interoperability tool, it also comes with its share of pitfalls. Free-text with special characters, space padding, and HTML tags are
+just a few of the things “clogging up” an easy PROC IMPORT and often turning programmers to use the wonderful DATA step.
+Without the automatic metadata and structure capabilities, using the DATA step can be time consuming – even if
+wonderful.
+
+                In this paper I plan to teach readers about the INFILE, FILE statements and the use of BINARY read-in
+settings that allow them to input and output to a CSV – allowing ether an “in place” fix or creation of a cleaned CSV. Use of
+parsing functions will help to identify pesky characters, name their replacements, or eliminate them completely.
+
+                A
+macro will be presented to demonstrate the concepts and provide a runnable solution to this pesky CSV problem.
+
+Brief
+Outline:
+
+· Introduction
+
+· Concep</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Troy Hughes</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">You wouldn’t ride your pony hard and put her away wet, so why subject your SAS® software to the same ill treatment?!
+Defensive programming describes a risk management strategy that aims to identify threats to software functionality and/or
+performance before they occur and, where possible, to identify pathways to programmatically mitigate those risks (or to
+communicate realized threats to stakeholders). This talk introduces various defensive programming techniques that can be
+implemented before software executes, such as verifying SAS program file state (i.e., availability, accessibility) and program file
+metadata (e.g., filename, checksum, create date, version). Data-driven software design further espouses the reality that
+“software” comprises not only code but also the underlying control data that drive that code’s functionality and flexibility. Thus,
+defensive data-driven design requires a fuller risk management strategy that evaluates risks not only to code but also to control
+data, including lookup tables</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Patrick Mercer</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Working with date fields can often be a source of frustration for programmers at all levels, especially when it comes to making
+accurate comparisons and calculations. Dates in SAS can be stored and formatted in numerous ways, such as numeric date
+values or character strings, and understanding these differences is essential for effective data analysis. Misinterpreting date
+formats or using incompatible types can lead to incorrect results or errors that are difficult to troubleshoot. My poster shares
+ways to simplify the process by exploring how to handle the various formats and representations of dates effectively. We will
+compare numeric versus character date fields, discuss the differences between date and datetime variables, and cover best
+practices for defining appropriate lengths, formats, and informats. By untangling the complexities of SAS date and datetime
+concepts, this presentation will equip aspiring programmers with the tools needed to perform accurate date comparisons
+confidently, ultimately trans</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Troy Hughes</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Data-driven design describes software design in which the control logic, program flow, business rules, data models, data
+mappings, and other dynamic and configurable elements are abstracted to control data that are interpreted by (rather than
+contained within) code. Thus, data-driven design leverages parameterization and external data structures (including
+configuration files, control tables, decision tables, data dictionaries, business rules repositories, and other control files) to
+produce dynamic software functionality. This hands-on workshop introduces real-world scenarios in which the flexibility,
+configurability, reusability, and maintainability of SAS® software are improved through data-driven design methods, as
+introduced in the author’s 2022 book: SAS Data-Driven Development: From Abstract Design to Dynamic Functionality, Second
+Edition. Scenarios install the attendee as the newest intern at Scranton, Pennsylvania&#39;s, most infamous paper supply company,
+tasked with converting legacy, hardcoded SAS pro</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Carleigh Jo Crabtree</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">The goal of this presentation would be to explain new terminology and challenging concepts related to SAS Viya. This
+presentation would be great for SAS 9 users moving to SAS Viya, or users new to SAS that are using SAS Viya. This content
+would be derived from my Simplifying SAS Viya blog series, links are included with the relevant topics. I could use examples
+from the blogs as hands on material or present them as demonstrations without hands on. I would cover:
+
+The two main
+servers in Viya: Compute and CAS, single vs. multithreaded processing, when to use each.
+
+[Simplifying SAS Viya Part 1:
+Choose Your
+Server]
+(https://communities.sas.com/t5/SAS-Communities-Library/Simplifying-SAS-Viya-Part-1-Choose-Your-Server/ta-p/949234
+)
+
+Caslibs: What are they, how to create caslibs, start a CAS session, mapping librefs to caslibs, caslib attributes, data source
+files vs. in- memory tables.
+
+[Simplifying SAS Viya Part 2: What are
+Caslibs?](https://communities.sas.com/t5/SAS-Communities-Library/Simplifying-SAS-Viya-Part-</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Mark Jordan</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Don&#39;t you hate waiting for results after submitting your SAS programs? I sure do! In this presentation, I&#39;ll compare the impact on
+processing speed of several techniques we choose from every day. We&#39;ll try it using both SAS datasets and database data so
+we can get a good idea of what produces the fastest result under most frequently encountered circumstances. My hope is that
+together we can agree on 5 &quot;thumb rules&quot; we can use to ensure our code runs fast and efficiently when we don&#39;t have the time
+for formal benchmarking.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Mark Jordan</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">When you gain access to new data sources, it’s important to familiarize yourself with the data, and then clean and validate it
+before conducting analysis, reporting, and modeling. The data may include records that violate business rules, non-standard
+casing, spellings, non-standard abbreviations for text values, or numeric outliers. This hands-on workshop teaches you how to
+use PROC SQL, PROC SGPLOT, PROC FREQ, and PROC FORMAT to generate reports useful for data profiling. You will
+then use PROPCASE, UPCASE, and PRX functions to standardize character data. The presentation includes an introduction
+to regular expressions. We’ll also learn how to use PROC SUMMARY and the DATA step to automate identification and
+isolation of rows containing numeric outliers. And finally, we’ll use constraints and audit trails to easily identify data that does
+not conform to business rules (thanks to Ron Cody, who taught me this technique).
+
+This workshop is a &quot;bring your own SAS
+and device&quot; session. The set up assumes you will b</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Bart Jablonski</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">When working with SAS code, especially with a complex one, there is a moment when you decide to break it into small pieces.
+You create separate files for macros, formats/informats, for functions or data too. Eventually the code is ready and tested, and
+sooner or later you will want to share it with another SAS programmer. You have developed a program using local PC SAS, but
+the deployment is on a server with a different OS. Your code is complex (with dependencies such as multiple macros, formats,
+datasets, etc.) and is difficult to share. Often when you try to share code, the receiver will quickly encounter an error because of
+a missing macro, missing format, or whatever...small challenge, isn&#39;t it? In this presentation we discuss a solution to the
+problem - the idea of SAS Packages, an answer to a reflection:
+
+Modern data focused languages, like R or Python, have vast
+ecosystems for building packages. Those environments allow their users to share their ideas, inventions, and code in an easy,
+almost seamless</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Carleigh Jo Crabtree</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">In this presentation, PROC SQL techniques are demonstrated in case study format. The users will learn PROC SQL
+techniques as they explore, prepare and report on the data. The users begin with a starter program that has each step and the
+goal to accomplish within that step. Each goal will teach how to use a new PROC SQL technique and builds in
+difficulty.
+
+Explore Data teaches OUTOBS, SELECT *, SELECT DISTINCT, using the PUT and COUNT functions on the
+SELECT clause, and CREATE TABLE.
+
+Prepare Data teaches removing duplicates, case expressions, SCAN and
+COALESCE functions, using a function on the WHERE clause, ORDER BY clause, CREATE VIEW, and GROUP BY
+clause.
+
+Report on Data uses functions to generate reports based on business scenario questions.
+
+This presentation was
+created with a powerpoint to introduce a few key topics such as the order of clauses and a few functions, and then goes right
+into working through the case study to goin hands on experience. This could be taught as a hands on workshop as users f</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Jason Brinkley</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Creating synthetic data via simulation can often be a powerful tool for a wide variety of analyses. The purpose here is to
+provide a basic overview of simulating data using the SAS Data step for single and multiple variables of different types for a
+variety of purposes. Focal points are in creating correlated variables and the general methodology of Monte Carlo
+simulation. Examples will include power calculations, sensitivity analysis, and exploring nonstandard analyses. The workshop is
+designed for the mid-level analyst who has basic knowledge of data management, visualizations and basic statistical analyses
+such as correlations and t-tests.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Kirk Paul Lafler</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Spreadsheets have become the most popular and successful data tool ever conceived. Current estimates show that there are
+more than 750 million Excel users worldwide. A spreadsheet’s simplicity and ease of use are two reasons for the growth and
+widespread use of Excel around the globe. Additional value-added features have also helped to expand the spreadsheet
+usefulness among a growing number of users including its collaborative capabilities, being customizable, ability to manipulate
+data, application of data visualization techniques, mobile device usage, automation of repetitive tasks, integration with other
+software, data analysis, and filtering capabilities using autofilters. This last value-added feature, filtering with autofilters, is the
+theme for this paper. An example application will be illustrated that creates a custom Excel spreadsheet with built-in autofilters,
+or filters that provide users with the ability to make choices from a list of text, numeric, or date values to find data of interest
+quickl</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Allison Saito</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">SAS macro is a powerful, yet often misunderstood tool.  Through a brief talk and longer demonstration, we&#39;ll explore some of
+macro&#39;s capabilities and talk about best practices for adding macro components to our programs.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Joe Madden</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">The upcoming release of SAS Viya Workbench will feature a job scheduling service that expands the available options for
+scheduling within the SAS ecosystem. This discussion will cover how to schedule SAS, Python, and R jobs, as well as provide
+an overview of upcoming scheduling features.  </td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Saikrishnareddy Yengannagari</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Is it possible to interact with CDISC Library API using Natural Language in plain English. Answer is Yes, we can. This paper
+presents a web application that allows users to query SDTM variable information using natural language by utilizing AI-driven
+natural language processing (NLP). Users can ask questions like &quot;Tell me about AESER&quot; or &quot;What is VSTEST?&quot; through the
+app. and to obtain accurate data, the AI extracts the name of the relevant variable. In addition, the application enables the
+generation of an entire SDTM specification from the SDTMIG version that is supplied, such as SDTMIG v3.4. After that, it
+automatically creates a sheet of specification data in Excel that can be downloaded from the CDISC API. This solution
+demonstrates the effectiveness of combining AI with API data retrieval to simplify clinical data specification and access,
+providing researchers and developers with a streamlined, automated procedure.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Mark Jordan</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">With the adoption of SAS Viya, accelerating processing in CAS is becoming more common, and CAS speaks CASL. Seasoned
+SAS coders often use SAS macros to produce data-driven programs, automating tedious programming tasks. When working
+with CAS from the SAS Compute Server, it&#39;s important to know where, when, and how the CASL that executes is generated.
+Whatever your experience level, the interactions between SAS code, CASL, and Macro can be intimidating. This presentation
+aims to demystify that process.
+
+In this presentation I’ll discuss:
+
+- A brief review of code tokenization and macro triggers on
+the SAS Compute Server.
+- A brief introduction to CASL and CAS actions, including the effect of macro triggers in CAS
+programs.
+- An introduction to CASL variables and data types, including arrays, dictionaries, and result tables.
+- Practical
+techniques for advanced data-driven programming in CASL</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Osmel Brito,  Cecille Seminario Marra,  Pedro Davi</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Traditional IBNR workflows often rely on fragmented spreadsheets, manual adjustments, and static reports that delay insight
+and invite error. This paper presents a fully modernized, end-to-end framework that transforms reserve analytics into an
+automated, auditable, and highly visual process.
+
+Built entirely in SAS 9.4, the solution ingests raw policy and claims data,
+applies rigorous data-quality checks, and constructs cumulative development triangles on the fly. A library of parameter-driven
+SAS macro programs orchestrates each step—link-ratio selection, tail-factor application, and ultimate loss projection—so
+actuaries can run thousands of scenarios without editing code. The macros capture every assumption in metadata, producing a
+complete audit trail that satisfies internal and regulatory review.
+
+To eliminate latency between calculation and consumption,
+the framework publishes standardized fact tables directly to a secure data mart that Power BI refreshes on schedule.
+Interactive dashboards then translat</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Chen Ling</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Lazy evaluation is a powerful technique that can optimize code execution by deferring evaluations until their results are
+required, thus enhancing efficiency. In most modern programming languages, like R, lazy evaluation is commonly applied to
+function arguments. However, the application of lazy evaluation in SAS has not been extensively explored. This paper focuses
+on the mechanisms of lazy evaluation in SAS MACROs and R functions, offering a comparative analysis of the underlying
+principles that drive these processes.
+
+R&#39;s lazy evaluation is driven by a data structure called Promise, which postpones
+evaluation and does not occupy memory until the value is needed, utilizing a call-by-need strategy. SAS, on the other hand,
+achieves lazy evaluation through its symbol tables, employing memory to store parameters, and operates on a call-by-name
+basis. These discrepancies in lazy evaluation strategies can notably impact the results of R functions and SAS MACROs. By
+examining these distinct approaches, the paper i</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Chen Ling</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Variable scoping dictates how and where variables are accessible within programming languages, playing a crucial role in code
+efficiency and organization. This paper examines the distinct scoping rules in SAS and R, focusing on SAS&#39;s dynamic scoping
+and R&#39;s lexical scoping. In SAS, dynamic scoping utilizes symbol tables, resolving variables at runtime by dynamically
+searching through active macro layers. R, in contrast, employs lexical scoping, using environments to resolve variables based
+on the structure in which functions are defined.
+Illustrative examples highlight the differences between these scoping
+strategies, showcasing their impact on code behavior. Additionally, the paper outlines methods for inspecting variables in
+SAS&#39;s symbol tables and R&#39;s environments, offering practical insights for debugging and optimization. Strategies for controlling
+variable scoping in both languages are discussed, enhancing code precision and reliability. This exploration equips
+programmers with critical understanding to</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Josh Horstman,  Richann Watson</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">The SAS® macro facility is an amazing tool for creating dynamic, flexible, reusable programs that can automatically adapt to
+change. This presentation uses a series of examples to demonstrate how to transform static &quot;muggle&quot; code full of hardcodes
+and data dependencies by adding macro language magic to create data-driven programming logic.  Don&#39;t hardcode data
+values into your programs. Cast a vanishing spell on data dependencies and let the macro facility write your SAS code for you!</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Ahmed Al-Attar</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">The goal of documentation is to provide an organized collection of programs and macros and exposing what they do, the
+parameters they use and more. Overtime the documentation is prone to get out of date and unrepresentative of the latest
+version of the code! That’s where Doxygen comes into play.
+
+[Doxygen](https://www.doxygen.nl/index.html) is free
+open-source software, released under the terms of the GNU public license version 2, and can run under Linux, MacOS or
+Windows, just like VS Code.
+
+[SASjs](https://sasjs.io/) is an MIT open source, free for commercial use, opinionated “batteries
+included” framework when it comes to building, linting, deploying, testing and documenting SAS projects and programs.
+
+This
+paper will focus on SASjs’s ability to generate HTML documentation from SAS program headers, via using [SASjs VS Code
+extension](https://sasjs.io/vscode/).</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Joseph Henry</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Are long-running jobs eating into your productivity? SAS Viya Workbench and SAS Data Maker are here to give you more time
+back in your day. SAS Viya Workbench is a developer-focused platform designed to empower data scientists who need to start
+small but scale efficiently. Whether you code in Python, R, or SAS, Viya Workbench provides a flexible, cloud-native
+environment that accelerates your workflow without compromising control or performance. This session will cover how
+Workbench and Data Maker can enable a developer to rapidly build and prototype against your existing data sources with very
+little setup required. We will show you how we are using DuckDB across our newest tools and highlight the 5x+ performance
+gains we are seeing when compared against traditional SAS techniques.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Danny Modlin</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Are you new to using SAS procedures for statistical analysis? Has it been a while since you were in your last statistics course?
+Are you wondering what are the differences among various procedures used in data exploration and modeling? This
+presentation is perfect for you! We start with a look at data exploration through procedures like PROC MEANS, PROC
+UNIVARIATE, etc. We then move to modeling using PROC REGSELECT, PROC GLMSELECT and more. We complete our
+discussion with categorical data analysis using PROC FREQ, PROC LOGISTIC, and PROC LOGSELECT. This presentation
+will consider both SAS 9 procedures and CAS enabled procedures within SAS Viya.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Danny Modlin</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Life is nice in the statistical world when things are normal (distributed that is). We have performed multitudes of regression
+analyses where the residuals meet the required assumptions of normality. What happens when this normality is not present?
+What do you do when your response variable is a count or a rate? Welcome to the world of generalized linear models! In this
+presentation, we will explore this expansion from normality using the GENMOD procedure in SAS. Suggestions for deciding
+which distribution to use will be shared. Our discussion and examples will also include a look into zero-inflation and one of the
+more interesting distributions, the Tweedie distribution.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Alireza Farnoush</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">While numerous factors have been studied in relation to prostate cancer, few have examined a broad spectrum of
+demographic, dietary, and lifestyle variables simultaneously. To address this gap, we utilized National Health and Nutrition
+Examination Survey (NHANES) data from 2001 to 2018 to identify potential factors associated with prostate cancer in men
+aged 60 and older. The analytic sample included 455 men with prostate cancer and 584 age-matched controls. To identify the
+most relevant predictors, we employed a modern metaheuristic feature selection approach—Variable Neighborhood Search
+(VNS)—combined with Random Forest (RF) classification. VNS was iterated 200 times, using sensitivity as the primary
+selection criterion. Only models with sensitivity above 0.55 were retained. Among these, average classification performance
+was: accuracy = 0.62, sensitivity = 0.58, specificity = 0.64, and AUC = 0.62. Feature frequency analysis revealed that
+race/ethnicity (selected in 29 of 200 runs), intake of vitamin A and</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Carlos Pinheiro</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Network science is the study of connected things. Things can be represented by people, devices, companies, governments,
+etc. Connected can be represented by calls, messages, likes, money transferring, references, geo-positioning, contracts, etc.
+Networks are constructed from relationships among entities, throughout different types of events. Network analysis can be
+used to understand churn, diffuse products, detect fraud, identify anomalies, along with many other applications. Network
+optimization searches for optimal solutions to minimize or maximize an objective function based on a problem described as a
+graph structure. The objective function can be cost, revenue, time, distance, and problems are often assigned to supply chain,
+routing, distribution, etc.
+
+In traditional network analysis, components, cores, or communities can be used to reveal groups of
+accounts, persons or organizations that are strongly related. In network optimization, cycles, cliques, paths, and shortest paths
+can reveal patterns on th</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">David Horvath</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Neural nets have been discussed in in SAS regional and international conferences since last century, This session will be a bit
+different in that it starts with the obligatory basic background and then goes into actual code. We will discuss what Machine
+Learning can and cannot solve. There will be more discussion of the how results are produced and less about the overall
+concepts.
+
+Topics
+
+* What is a neuron?
+
+* How does a neural net model a human neuron?
+
+* How does that work with
+data?
+
+* What does it NOT solve? Discuss the biggest problems with data.
+* Examples
+
+1. Working data
+2. Why’d we get
+that result?
+3. More Working data
+4. Why’d we get *that* result?
+5. Reviewing the code</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Rick Wicklin</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">You’ve collected data, and now you’re examining a histogram. You want to fit a probability distribution to the data, but you’re
+unsure which distribution might serve as an effective model. The moment-ratio diagram is a powerful graphical tool that can
+guide this process. By plotting the sample skewness and kurtosis of your data on the diagram, you can identify potential
+distributional models.
+
+This presentation demonstrates:
+
+- How to construct a moment-ratio diagram using SAS 9 and SAS
+Viya.
+- How the diagram connects well-known probability distributions and families of flexible distributions.
+- How bootstrap
+methods can help assess which distributions are plausible candidates.
+- How to use a moment-ratio diagram to design a
+simulation study.
+
+Each topic is accompanied by SAS code that you can apply to your own data.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Abbas Tavakoli,  April Hutoo,  Phyllis Raynor</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">The Shared Trauma Posttraumatic Professional Growth Inventory-Modified (STPPG) is a 17-item, Likert-type scale developed
+to assess trauma exposure among mental health professionals. The original STPPG consisted of a 14-item Likert-type scale,
+including three subscales: Technique-Specific Shared Trauma, Personal Trauma, and Professional Posttraumatic Growth. This
+scale highlights the reciprocal effects of shared trauma and aligns with established measures of posttraumatic stress,
+secondary trauma, shared trauma, and posttraumatic growth. This study employed parallel analysis to examine the
+dimensionality of the STPPG. Parallel analysis, utilizing a SAS macro and the &quot;parallel&quot; option in Proc Factor, was conducted to
+assess the dimensionality of the Perspectives of Faculty Caring. Exploratory factor analysis was performed using maximum
+likelihood estimation, squared multiple correlations, and Promax rotation. The analysis indicated that the STPPG has either two
+or three meaningful underlying factors. The rotate</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Joe Demaio,  Michael Frankel,  Long Doan,  Aaron M</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">The last Canadian team to win Lord Stanley’s cup in the National Hockey League was the Montreal Canadiens in 1993.  Since
+then, each championship has been claimed by a team geographically located in the United States.  Is this streak unusual? 
+Perhaps it is particularly unusual in light of the fact that Hockey is known as Canada’s game.  Is Hockey in its modern
+incarnation still Canada’s game? Given the long history of the NHL should we expect such a streak to occur at some point in
+time?  Are we too fixated on the geographic location of the teams in question?  Perhaps the nationalities of the players on
+these Championship American teams skew heavily towards Canadian? Or perhaps to other countries?    Alternatively, perhaps
+we are at the start of country spanning sports curse akin to the Red Sox trade of Babe Ruth.  Or maybe we should just follow
+the money. In this paper, we examine the likelihood of such a streak, the changing landscape of nationalities and influence
+factors on players in the NHL.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Sam Edgemon,  Tony Cooper</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Introduction to Baseball Analytics is an introduction to sabermetrics, baseball analytics, data science, the SAS Language, and
+SQL. It covers the theory and the fundamentals of the emerging science of Sabermetrics. We will discuss the game of
+baseball, not through consensus or a fan’s conventional wisdom, but by searching for objective knowledge in baseball
+performance.
+
+Other areas of sabermetrics will be analyzed and better understood with historical baseball data. The
+Workshop also serves as applied introduction to the basics of data science, that requires skills in computation (accessing data),
+statistics, and communicating results of analyses.
+
+Using baseball data, the basics of descriptive statistics, the SAS
+Language, and the SAS Data Step (and SQL) will be covered.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Danny Modlin</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Many analysts are interested in taking models they currently have and transitioning them to the Bayesian realm. Most leap from
+their favorite classical analysis procedure directly to PROC MCMC, the general-purpose Bayesian procedure. This presentation
+will feature the BGLIMM procedure available since SAS/STAT 15.1. This will allow the participant to model non-normal
+responses and include random effects within their Bayesian approach. Discussion will include options of priors and availability
+of statements. Examples will include models originally written in PROCs REG, GLM, GLMSELECT, GENMOD, MIXED, and
+GLIMMIX.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Kelly Smith,  Elizabeth Davis</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Correlation provides information on relationships between variables but does not demonstrate causality. Multiple regression
+provides additional information on variable relationships but is limited to observable variables. Factor analysis identifies
+underlying, or latent, structure within sets of variables, effectively reducing the dimensions of the dataset to a smaller number of
+factors for continued study. Each technique provides useful information for the researcher.
+
+Structural Equation Modeling
+(SEM) offers a way to combine principles from factor analysis and multiple regression; in SAS®, structural equation modeling is
+often performed through the use of PROC CALIS. This introduction to PROC CALIS includes a review of SEM, underlying data
+assumptions, a breakdown of procedure syntax, a sample application, and suggestions for use.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Alexis Wardell,  Allison Deal</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Research studies often involve continuous outcomes, for example survey instrument scores measured repeatedly over time.
+We see this in our cancer research when patients complete surveys before, during, and after an intervention. Our motivating
+example evaluates an intervention vs. usual care, within a randomized trial, and compares scores between groups at 3
+timepoints. PROC GENMOD is used to fit marginal linear models with generalized estimating equation methods to account for
+potential clustering within patients and allow for missingness. The longitudinal model includes time, group (intervention vs.
+control), and the interaction between time and group. There are many interesting comparisons that can be made from this type
+of study, including 1) how the outcome scores change over time, 2) do the outcome scores change differently over time
+between groups, and 3) are scores different between groups at different timepoints. Additionally, consideration must be made
+in treating time as continuous or categorical.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Kelly Smith,  Bobbie Frye</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">The gold standard of research is a truly experimental study. Subjects are assigned randomly to study and control groups;
+subjects don’t know which group they’ve been assigned to until after the research is complete (if then). Context and
+environmental variables are under the control of the researcher; study and control groups operate under the same conditions
+except for the variable of interest.
+
+The real world is often not conducive to experimental research in the social sciences, as
+ethical considerations and difficulty controlling extraneous variables make it problematic to meet the gold standard.
+Pseudo-experimental methods, such as propensity score matching (PSM), offer an opportunity to approximate experiments
+through the assignment of research subjects based on demographic and/or other factors. With PSM, the researcher can create
+two groups of similar subjects; the control group does/did not receive the experimental treatment while the study group
+does/did receive the experimental treatment.
+
+This pres</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Caleb Greski,  Joe DeMaio</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Many people, such as Superbowl winning quarterbacks, celebrate success in life by saying “I’m going to Disneyland!”. What do
+you do once you get there? I doubt you want to spend lots of time waiting in line. Perhaps there is an optimized order in which
+to visit rides and attractions to minimize line wait time. This is known as the Traveling Salesman Problem (TSP). In this paper
+we demonstrate how to use the Optgraph Procedure in SAS to compute a route for our travelling salesman and construct a
+visualization of said tour on a map. Using the annotation data set feature allows us to design graphical displays of TSPs which
+overlay the optimized path on top of any relevant images, such as a map designed by a graphic designer, or a chess board.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">LeRoy Bessler</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">My striving to get the best out of SAS graphics since 1981 has inspired my very long list of design principles for
+communication-effective data graphics and color use. Today let me show you some of them. What is The Best Way to get
+beyond the defaults? I will take you past The Familiar to The Uncommon, and in any case to The Best.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Kirk Paul Lafler</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Organizations around the world develop business intelligence and analytics dashboards, sometimes referred to as enterprise
+dashboards, to display the status of “point-in-time” metrics and key performance indicators. Effectively designed dashboards
+extract real-time data from multiple sources for the purpose of highlighting important information, numbers, tables, statistics,
+metrics, performance scorecards and other essential content. This paper explores essential rules for “good” dashboard design,
+the metrics frequently used in dashboards, and the use of best practice programming techniques in the design of quick and
+easy dashboards using SAS® software. Learn essential programming techniques to create real-world dashboards using
+Base-SAS® software including PROC SQL, PROC FREQ, PROC MEANS, PROC REPORT, macro, Output Delivery System
+(ODS), ODS HTML, ODS PDF, ODS Excel, ODS Layout, ODS Statistical Graphics, PROC SGPLOT, PROC SGPIE, and other
+technologies.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Shavonne Standifer</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Building programs that leverage the analytic and reporting powers of SAS® reduce the time to solution for
+critical tasks. This
+paper discusses, through example, how Base SAS® tools, such as FILENAME,
+MACROS, and ODS combined with the “built
+in scheduler” housed in SAS® Enterprise Guide can be used
+to automate the process between raw data to dashboard view
+quickly and efficiently.
+This paper is divided into two main parts. In the first part, we discuss how to use scripting language
+to
+bring data from a file location into the SAS® environment, how to build programs that clean and subset the
+data, and how
+to transform the process with a MACRO. In the conclusion, we will discuss how to use SAS
+procedures and the ODS to
+transform the resulting data into a quality improvement dashboard view that
+can be set to automatically run and send to team
+members at a scheduled time.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Osmel Brito,  Yenireth GIL VILLEGAS,  Sergio Llopi</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Deploying SAS Financial Management (FM) 5.62 on SAS 9.4 Maintenance 8 (M8) can feel like navigating a high-stakes
+mission—one that requires precision, planning, and a solid understanding of SAS’s multi-tier architecture. This paper provides
+a practical, experience-based guide to installing and configuring SAS FM in a modern M8 environment, helping administrators
+avoid common pitfalls and reduce deployment time.
+
+The session covers strategies for improving reliability and
+maintainability post-deployment, including environment validation techniques and the use of scripted automation to reduce
+manual errors and ensure repeatability. Configuration tips, validation checklists, and real-world lessons learned are shared to
+help ensure a smoother, more predictable implementation experience.
+
+Whether you&#39;re deploying SAS FM for the first time or
+upgrading in an existing SAS 9.4 ecosystem, this paper will provide practical insights and confidence to approach the process
+effectively.
+
+Yippee Ki-Yay, SAS Admins! Let&#39;s de</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Raj Bhosale</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Accurate enrollment projections are vital for higher education institutions to strategically plan for resource allocation, academic
+offerings, faculty recruitment, and financial sustainability. This paper presents the development and implementation of the
+Enrollment Projections Application, a robust, web-based platform designed to support data-driven enrollment strategies. By
+integrating multiple technologies including PHP for the user interface, Microsoft SQL Server and Oracle Databases for data
+storage and retrieval, and SAS and Python for data processing and advanced analytics, this application allows institutional
+leaders to simulate enrollment prediction with precision. The system enables real-time access to historical trends and
+program-level insights, enhancing forecasting accuracy and decision-making. The paper details the technical architecture, data
+integration approach, and predictive modeling capabilities of the application. It also discusses use cases where this solution
+has empowered university</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Josh Horstman,  Richann Watson</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Patient profiles are often used to monitor the conduct of a clinical trial, identify data entry errors, and catch protocol deviations.
+Each profile combines key data collected regarding a single subject – everything from dosing to adverse events to lab results.
+ In this presentation, two experienced statistical programmers share how to leverage the SAS Output Delivery System (ODS)
+and the Graph Template Language (GTL) to blend both tabular and graphical elements and create beautiful,
+highly-customized, information-rich patient profiles that meet the requirements for managing a modern clinical trial.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Dan Heath</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">There are many types of graphics, such as survival plots, adverse event plots, and forest plots, used to report clinical data.
+However, many of these graphics might not be available as a simple request. Even if they are available, there can be many
+variations on these graphics, and the reporting requirements can be different from one company to another.
+In this
+presentation, I want to show you how to construct these types of graphics by combining simple plot types, sometimes in very
+creative ways. We will discuss how to think about a graph as the sum of its parts. This will empower you to create these types
+of graphics in whatever form you need.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Edmond Kwekutsu</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">This study investigates the effect of varying soil moisture levels on the physiological performance and heat intensity of three
+chili pepper varieties—Habanero, Lantern, and Helios—grown under controlled greenhouse conditions. Irrigation treatments
+were categorized into low (12–15%), medium (15–18%), and high (18–20%) soil moisture. Using the LI-COR 6800
+photosynthesis system, key parameters such as photosynthesis, transpiration, and stomatal conductance were measured,
+along with Scoville Heat Units (SHU) to assess pepper heat intensity. Data visualization was performed using SAS Viya.
+Results showed that medium irrigation produced the highest SHU (1.8M), followed by low (1.6M) and high (1.5M). The use of
+bubble charts revealed nuanced physiological responses—showing that similar stomatal conductance and transpiration rates
+could result in different photosynthesis levels, highlighted by bubble size. Gauge charts visually depicted SHU intensity through
+color-coded zones, making differences in heat levels immed</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Louise Hadden</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Geographic processing in SAS® has recently undergone some major changes: as of Version 9.4 Maintenance Release M5
+many procedures formerly a part of SAS/Graph are now available in BASE SAS. At the same time, SAS Graphics have added
+some new procedures such as PROC SGMAP that build on the functionality of SAS/GRAPH’s PROC GMAP and incorporate
+ODS graphics techniques including attribute maps and image annotation. This paper and poster will replicate a map of the
+world created by the author with SAS/GRAPH and PROC GMAP with the annotate facility using PROC SGMAP to map three
+different metrics on a map of the world. New SAS mapping and SG procedure techniques will be demonstrated, following
+Agent 007’s adventures across the globe.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Bart Jablonski</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Rain cloud plots are very popular and practical tools for data visualization. They enable the display of several components in
+one figure, including: kernel density estimates, data points, and box-and-whisker plots. This method facilitates the comparison
+of variable distribution across different categories. During this presentation, a macro called %RainCloudPlot() will be introduced
+and its capabilities for creating rain cloud plots will be presented. Sample code will accompany all examples.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Hong Wang</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Immunogenicity analysis is a crucial aspect of vaccine clinical trials. This analysis aims to evaluate the immune responses
+elicited by a vaccine candidate, enabling researchers and stakeholders to assess the vaccine&#39;s effectiveness in inducing
+protective immunity against specific pathogens. Subgroup analysis within immunogenicity studies is essential for understanding
+how different populations respond to a vaccine. It helps identify variations in immune responses based on demographic,
+clinical, or other relevant factors.
+
+Forest plots play a vital role in summarizing and visualizing the results of immunogenicity
+analyses, especially in subgroup immunogenicity analyses where the forest plots of different subgroups are compared to
+evaluate the overall effectiveness and variability of vaccine responses across these groups.
+
+A SAS macro has been
+developed to generate multiple forest plots in a single RTF output. This tool is particularly beneficial for immunogenicity
+subgroup analyses, as it provides a clear and</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Jim Blum</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">As data science education evolves to emphasize reproducibility, collaboration, and accessibility, instructors are increasingly
+seeking tools that support these goals while remaining approachable for both educators and students. This interactive session
+introduces participants to the combined use of SAS Viya for Learners and GitHub in the classroom—two powerful, cloud-based
+platforms that support modern data instruction.
+Designed for educators with limited or no prior experience with either tool, the
+session will walk through practical strategies for integrating SAS Viya and GitHub into coursework, including assignment
+distribution, version control, and collaborative project workflows. Attendees will be invited to participate in the role of a student,
+gaining hands-on experience with SAS Viya and GitHub repositories in real time.
+The session will also address common
+implementation challenges—such as account setup, file management, and instructional pacing—and offer classroom-tested
+solutions. By the end, parti</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Immanuel Pulavarti</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">This paper explores the integration of SAS (Statistical Analysis System) software into the AP Statistics curriculum to promote a
+deeper understanding of statistical concepts and data analysis. By leveraging the power of SAS, students gain practical
+experience with real-world data, enhancing their ability to perform descriptive and inferential statistical procedures such as
+hypothesis testing, confidence intervals, regression analysis, and probability modeling. The use of SAS encourages active
+learning by allowing students to visualize data distributions, automate calculations, and interpret complex outputs. Through
+hands-on coding and data manipulation, students develop computational thinking and analytical skills that are increasingly vital
+in academic and professional environments. Incorporating SAS into AP Statistics bridges the gap between theoretical
+knowledge and applied statistics, better preparing students for college-level coursework and future careers in data science and
+related fields.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Abbas Tavakoli,  Isabelle Bennett,  Robin Dail</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Monitoring of physiological vital signs from body temperature and heart rate is crucial to guide treatment for preterm infants to
+optimize health outcomes. Monitoring continuous measurement of both central (abdominal) and peripheral (foot) skin
+temperatures will give a thermal gradient, which may predict the onset of infection. Studies have shown that heart rate
+characteristic (HRC) scores can be used to predict infection; however, a special HeRO monitor must be used in addition to
+standard care. Our team compared thermal gradients to HRCs to predict infection in early preterm infants (born &lt; 32 weeks
+gestation age). 364 preterm infants were enrolled in the study after approval of IRB and parental consent. Each infant had a
+skin temperature probe (thermistor) attached to their abdomen and another to the sole of one foot. Temperature and HRC data
+were downloaded from a research datalogger, and HeRO monitor as text files, then merged into Excel format, with each
+infant&#39;s data containing approximately 41,002 row</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Sekyiwaah Nuamah</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">This study analyzes monthly unemployment patterns for U.S. females aged 16-19 from January 1950 to April 2025 using SAS
+time series procedures. The research addresses critical socioeconomic needs to understand youth unemployment dynamics,
+particularly among teenage females who face unique labor market challenges including limited work experience, seasonal
+employment patterns, and systemic inequalities. This demographic historically experiences unemployment rates exceeding
+15%, with heightened vulnerability during economic downturns like the 2008 financial crisis and COVID-19 pandemic. Using
+PROC ARIMA, we implemented a comprehensive time series analysis workflow including stationarity testing via Augmented
+Dickey-Fuller tests, model identification through ACF/PACF analysis, and SARIMA model fitting. After evaluating multiple
+candidate models, SARIMA(0,1,1)(0,1,1)[12] emerged as the optimal specification based on AIC criteria and diagnostic checks.
+The model successfully captured both seasonal patterns and sho</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Shanice Douglas</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Lung and colon cancers remain among the top causes of cancer-related mortality globally, with significant variations across
+health systems. This study applies multivariate time series modeling, specifically the Vector Autoregressive Moving Average
+(VARMA) approach, to analyze lung and colon cancer mortality trends in Jamaica and the United States from 1960 to 2021. It
+explores interdependencies between the two cancer types within each country and provides 12-year ahead forecasts. Model
+performance is evaluated using AIC, RMSE, and MAPE, with Monte Carlo simulations enhancing forecast reliability. A
+comparative assessment highlights cross-country disparities, shared patterns, and potential contributing factors. Findings aim
+to inform predictive analytics and guide public health policy for better cancer control.
+Keywords: Cancer Mortality, Multivariate
+Forecasting, VARMA, Time Series, Monte Carlo Simulation</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Joseph Maina,  Abdelmonaem Jornaz</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">This study forecasts the U.S. home vacancy rate, a key indicator of housing market health, using Federal Reserve Bank of St.
+Louis (FRED) data from 1986 to 2024. The current homeowner vacancy rate stands at 1.1% in Q1 2025. The ARIMA model
+captures temporal patterns, while machine learning algorithms such as regression analysis, random forests, and gradient
+boosting models non-linear relationships with economic, housing, and demographic factors. Integration of these models
+enhances predictive performance, optimized using the Akaike Information Criterion (AIC) and Root Mean Square Error
+(RMSE). This provides insights on economic indicators, housing supply and demand, and demographic factors, through the
+performance optimization of the models. The forecasts enable data-driven decisions for policymakers, real estate
+professionals, and urban planners, supporting housing development, supply chain planning, and related sectors like Heating,
+Ventilation, and Air Conditioning (HVAC). This research aims to promote eco</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Princess Tagoe</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Wildfires pose serious threats to ecosystems, communities, and economies across the United States most especially the
+Western part. This research investigates historical wildfire trends and forecasts future events in Colorado, Montana, Utah, and
+Wyoming using spatio-temporal analysis. Leveraging data from the U.S. Forest Service Fire Occurrence Database
+(1992–2020), we used SAS for data preparation, pattern detection, and predictive modeling. The study examines how wildfire
+occurrences evolve over time and space to identify key trends and potential hotspots. These insights support disaster
+preparedness, resource allocation, and risk mitigation efforts. By demonstrating the practical application of SAS in
+environmental analytics, this project highlights how data-driven approaches can inform effective wildfire management
+strategies.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Chukwubuikem Arize</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">This study highlights the application of SAS software in analyzing complex public health data derived from the Pregnancy Risk
+Assessment Monitoring System (PRAMS), Phase 8 (2016–2021, N=216,035). The study investigated maternal transitions in
+smoking behaviors before and during pregnancy, including shifts to cigarette use, e-cigarettes, and dual use, using SAS 9.4.
+Through PROC LOGISTIC and PROC FREQ, we conducted stratified descriptive statistics and multivariable logistic regression
+to assess the impact of education, marital status, income, and ethnicity on tobacco use transitions. Women with higher
+education and those who were married had significantly lower odds of initiating or continuing smoking behaviors. SAS was
+instrumental in data wrangling, variable recoding, survey-weighted modeling, and complex hypothesis testing across multiple
+outcome categories. The analytic pipeline included adjusting for multicollinearity, handling missing data, and calculating
+weighted odds ratios. Findings reveal key predi</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Jennifer Latham</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">In this data analysis approach, we aimed to understand the cost-effectiveness and public health impact of Rhode Island&#39;s
+community-based health initiative. A quasi-experimental cross-sectional and group comparison design was used to explore the
+sociodemographic and geospatial dependent variability in health outcomes across initiative-served communities and a
+reference group of communities, while also exploring the longitudinal effects of the initiative. The analysis used engineered,
+standardized, and weighted social and environmental determinants, as well as health claims data on health outcomes and
+associated healthcare costs. Using SAS, the determinants, costs, and health outcomes data were analyzed to understand
+outcomes within communities over time towards estimating the impact of the initiative, predicting outcomes, and assessing the
+economic impact of the initiative on public health insurance costs to the State.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Trenzy Odero,  Mostafa Zahed</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">This study conducts a time series analysis of quarterly air passenger traffic at San Francisco International Airport (SFO) from
+1999 to 2025, emphasizing seasonal patterns, long-term trends, and disruptions caused by the COVID-19 pandemic. Publicly
+available data from SFO is analyzed using SAS tools including PROC TIMESERIES for exploratory analysis, PROC ARIMA for
+SARIMA model estimation and diagnostics, and PROC ESM for comparing exponential smoothing techniques. To address
+non-stationarity, both first-order and seasonal differencing were applied. Based on autocorrelation diagnostics, a
+SARIMA(0,1,1)(0,1,1)4 model was selected and validated using the Akaike Information Criterion and residual analysis.
+Although point forecasts performed well, residuals deviating from the normal distribution assumption limited the reliability of
+interval forecasts. Out-of-sample projections through 2027 suggest a steady post-pandemic recovery in air travel, with
+consistent seasonal peaks in Q3. Confidence intervals widen over</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Kirk Paul Lafler</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">The world of metadata provides SAS® users with context and information about the many data files they work with. Metadata
+provides quick and convenient access to useful information about their SAS session with many read-only SAS data views
+called DICTIONARY tables or SASHELP views. At any time during a SAS session, information about currently defined system
+options, libnames, table names, column names and attributes, formats, indexes, and more can be accessed and captured. This
+paper explores the purpose of DICTIONARY tables and views, how they are accessed, and what information is available to
+SAS users. Attendees learn how these important tables and views can be accessed and applied using real-world scenarios.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Ricky Norman</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">This is a presentation of a collection of SAS Macros I developed and have been
+using for over 15 years. It includes an
+example of using SAS Hash Object code to
+look up values. Years ago, I was very excited to see SAS Institute continue
+to
+provide innovative solutions and provide an incredibly powerful and versatile
+alternative to the array! With the availability of
+several Gigabytes of memory,
+SAS can load up to a billion records into memory for fast and efficient look-up
+of data like
+VLOOKUP in Microsoft Excel but greatly exceeding its one million row
+limits.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Amy Zhang</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">During a clinical trial, it is common to extract data from a live database for various purposes, such as medical monitoring, TLFs
+development, or evaluation of the safety profile for an investigational drug. These data extractions can happen multiple times
+throughout a trial lifecycle, and it is beneficial for statistical programmers to understand the overall context of the data at each
+data transfer. Some particular questions we want to answer are how many datasets were included in this transfer and were
+there any missing or new datasets? Have there been changes to the dataset structure? Were any variables or their controlled
+terms introduced or removed? Was new value-level metadata added to the finding domains? Due to the interdependent nature
+of SDTM and ADaM codes, without awareness of all the updates, such changes can result in potential mapping errors that
+impact ADaM programming or the contents of the final outputs. Analyzing all these aspects manually can be time-consuming.
+To address this problem, we</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Mark Jordan</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">We must often join data from disparate data sources where matching by primary key is not possible. This paper addresses
+fuzzy matching techniques that can help get your data ready for analysis.
+
+In this presentation, I discuss and demonstrate
+usig PROC SQL to:
+
+- Standardize values for cleaner matches
+- Identify exact matches
+- Conduct fuzzy matching using
+traditional SAS functions, including:SOUNDEX()SPEDIS()COMPLEV()COMPGED()
+- Generate and use SAS Data Quality
+match codes</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Shavonne Standifer</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Effective data management is essential for ensuring high-quality analysis and decision-making. SQL is a powerful language for
+querying and manipulating relational databases, while SAS offers a suite of advanced tools for data preparation, statistical
+analysis, and reporting. By integrating these technologies, organizations can improve data management, enhance data
+integrity, and foster collaboration across teams.
+
+By following this technical report, readers will:
+
+- Use a step by step
+process to create a dynamic report.
+- Learn best practices for writing SQL queries in SAS using PROC SQL.
+- Understand
+how to use SAS tools for cleaning, validating, and structuring datasets.
+- Discover techniquesfor using PROC Report to create
+custom reports.
+- Gain the ability to maintain analysis-ready datasets that support data-driven decision-making.Use SAS ODS
+and Proc SGPLOT to create data visuals for custom reporting.
+
+This paper provides a general guide to utilizing SQL and SAS
+programming to efficiently create, manage,</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Chen Ling</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">SAS is a statistical software used for data analysis and the XPT (SAS Transport File) file format is a standardized way to
+present data which is widely accepted for clinical trial regulatory submissions. As more and more companies are exploring
+using R to generate statistical outputs for regulatory submission, there is a growing interest in using R to generate xpt files.
+However, due to the software setup difference between SAS and R, they handle dataset and variable level attribute differently.
+In this paper, we introduce the popular ways to assign these attributes in both SAS and R and provide comprehensive
+comparison of the process and output. Through practical examples, we will demonstrate how to ensure the exported datasets
+from SAS and R meet the requirement.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Imelda Go,  Abbas Tavakoli</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">A lookup table is a data structure that helps the programmer determine the outcome given the input. This paper illustrates the
+use of lookup tables to process data for an outcome instead of traditional manually coded statements to determine the
+outcome. The use of lookup tables has the potential to reduce processing time since computations are replaced by a lookup
+operation. Business rules form the foundation of the lookup table. Embodying the processing logic in the lookup table provides
+a framework for automation and for the programmer to more efficiently complete programming tasks. There is the potential to
+reduce the amount of code because the lookup table already contains the information that would otherwise require
+programming. Using a lookup table can also simplify the code maintenance tasks when business rules need to change.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Ahmed Al-Attar</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Illustrate an enhanced analysis cutom-developed macros that allows Base SAS 9 users to analyse their SAS programs and
+produce data flow diagrams about the data set(s) being used including their columns (data Lineage). The presentation will
+explain how the code works in more details and how to use it within your own programs. This is an expantion/customization to
+technique that was originaly presented by Philip Mason at SAS Global Forum 2017.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Pratap Kunwar</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Regular expressions (RegEx) offer a powerful way to find, extract, and manipulate text patterns—going far beyond what
+standard SAS® character functions can do. This session is designed for beginner and intermediate SAS users who want to
+build confidence and skill in applying RegEx to real-world programming challenges.
+
+We’ll start with the fundamentals,
+introducing key concepts like character classes, metacharacters, and quantifiers. From there, we’ll explore how to build and
+use regular expressions for tasks such as validating formats, cleaning messy strings, and performing advanced
+search-and-replace operations.
+
+Through step-by-step examples, you’ll see how RegEx can simplify code, reduce manual
+text handling, and solve problems that would otherwise require complex logic. You’ll also learn tips for troubleshooting patterns
+and writing expressions that are both powerful and readable.
+
+By the end of the session, you’ll have the tools to start using
+regular expressions confidently in your SAS programs—and tra</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Louise Hadden</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">One challenge in writing a SAS® White Paper is creating the perfect reference section, properly acknowledging those who
+have inspired and paved the way. Luckily, clever use of such tools as Lex Jansen’s website, SAS’s ability to read in and
+manipulate varied data sources, and Microsoft Word citation manager, every author can succeed in proper referencing in their
+white papers. This paper and ePoster will demonstrate how to accomplish this goal.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">David Bosak</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">The &quot;BEST&quot; format is commonly used in SAS programs.  This format constrains the display of a numeric value to a specified
+width.  Depending on the characteristics of the numeric value, it may be rounded or not.  For very small or large values, the
+&quot;BEST&quot; format may display the value in scientific notation.  If the value has decimals, the number of decimals shown by &quot;BEST&quot;
+can change depending on the number of integer digits.  The rules concerning the &quot;BEST&quot; format are in fact quite complicated. 
+Is there any way to reproduce the &quot;BEST&quot; format in R?  This paper will show you how to do it using a recently added feature of
+the &quot;fmtr&quot; R package.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Louise Hadden</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">SAS® provides myriad opportunities for customizing programs and processes, including a wide variety of system options that
+can control and enhance SAS code from start to finish. This paper and presentation demonstrates methods of obtaining
+information on SAS system options and moves on to fully explicate ten SAS system option hacks, from COMPRESS to XWAIT.
+System options are highly dependent on platforms, security concerns, SAS versions and products: dependencies and defaults
+will be discussed. SAS practitioners will gain a deeper understanding of the powerful SAS system options they have seen,
+used, and automatically included in their code. This presentation is suitable for all skill and experience levels; platform and
+implementation differences are part of the discussion.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">John King</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Abstract
+Managing system options in SAS macros is often error-prone, especially when global settings are altered temporarily.
+This paper presents a macro %u_optstore that allows for the safe saving and selective restoration of only the SAS options that
+have changed. By combining PROC OPTSAVE, PROC COMPARE, and PROC OPTLOAD, this approach minimizes risk,
+supports nested macros, and provides debugging transparency. It also avoids known issues associated with full option reloads,
+such as unwanted resets to session defaults.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Jordyne Lewis</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">The pay gap between different genders is a prevalent issue on a global scale. Especially when it comes to developing and
+third-world countries, where economies are agricultural-based rather than industrial, this problem can be even more
+exacerbated. The Agricultural Wage Gap Within Rural Villages (Emerick et al., 2023) reports that there was a 23% daily
+earnings difference between laborers working in agriculture versus non-agriculture in India. This issue is not just isolated to
+countries that have reported problems but is crucial to the interdependence of the global market. Aid organizations focus on
+empowering many different groups, including women, youth, indigenous peoples, and persons with disabilities. This purpose
+lines up exactly with what’s being studied: a possible difference between the mean income of all male small-scale food
+producers and the mean income of all female small-scale food producers in certain countries. This paper researches the
+gender pay gap data pulled from the United Nations SDG</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Danny Modlin</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">In this workshop, you learn to build time series models for large-scale time series problems with many hierarchically related
+series. You will experience the capability of Model Studio to diagnose, fit, and assess models for many time series at once. Use
+the new Hierarchical Modeling Node to create time series models at each of the levels of the hierarchy. Need to extract your
+reconciled predictions from each level of the hierarchy? No problem. Within the Hierarchical Modeling Node, you can dive into
+each level of the hierarchy and export these desired predictions.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Carleigh Jo Crabtree</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">In this presenation, SAS macro techniques are demonstrated in case study format. The users begin with a starter program
+containing PROC SQL and SGPLOT steps. The goal is to enhance the program using macro techniques. The program
+becomes a macro definition that accepts parameters. Inside the macro definition, one PROC SQL step is enhanced to create
+data driven macro variables. A macro DO loop combined with indirect references are used to dynamically generate five pdf&#39;s
+with current filtering of data and titles. A local macro variable is created before the DO loop. Once the macro definition runs
+successfully, macro conditional processing with the macro IN operator is used to produce errors if a value outside of the valid
+parameter values is entered. Finally, autocall macros are explored. The autocall macro replaces spaces in a string with
+underscores. This is used to enhance the pdf titles as they are generated to include a descriptive name. Throughout the
+process %PUT statements are used to validate the macros</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Troy Hughes</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Getters and setters are common in some object-oriented programming (OOP) languages such as C++ and Java, where “getter”
+functions retrieve values and “setter” functions initialize (or modify) variables. In Java, for example, getters and setters are
+constructed as conduits to private classes, and facilitate data encapsulation by restricting variable access. Conversely, the
+SAS® language lacks classes, so SAS global macro variables are typically utilized to maintain and access data across multiple
+DATA steps and procedures. Unlike an OOP program that can categorize variables across multiple user-defined classes,
+however, SAS maintains only one global symbol table in which global macro variables can be maintained. Additionally,
+maintaining and accessing macro variables can be difficult when quotation marks, ampersands, percentage signs, and other
+special characters exist in the data. This text introduces user-defined getter functions and setter subroutines designed using
+the FCMP procedure, which enable data loo</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Danny Modlin</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">The Automated Explanation in SAS® Visual Analytics is a powerful and easy way to start your journey into building predictive
+models. We&#39;ll start by creating an Automated Explanation to analyze our data and pick up on key drivers that appear. We will
+then easily move into building a predictive model using SAS® Visual Statistics. Data Scientists and Business Analyst will see
+how easy it is to take that next leap in their data analysis. Code will not be harmed, examined, nor executed during this
+presentation.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Josh Horstman,  Richann Watson</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">In their popular presentation &quot;From Muggles to Macros&quot;, Horstman and Watson delivered a spell book full of macro magic to
+enhance SAS programs with data-driven wizardry. This exciting sequel to that enchanting performance adds to the list of
+incantations for creating dynamic, flexible, reusable programs that can automatically adapt to change. New charms include the
+use of control tables, the CALL EXECUTE routine, and of course, more macro language techniques. Don&#39;t hardcode data
+values into your programs. Cast a vanishing spell on data dependencies and let the macro facility write your SAS code for you!</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Osmel Brito,  Angye Rivero</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">For over 15 years, we have relied on SAS Data Integration Studio to develop and maintain robust ETL and data pipeline
+solutions across industries. As data volumes have grown and performance demands increased, we have encountered the
+natural evolution of DI Studio-generated jobs becoming monolithic, complex, and increasingly difficult to maintain and
+optimize—especially when integrating with high-performance databases like Oracle.
+
+This paper shares our journey in
+breaking down monolithic ETL jobs into modular, reusable components using macro-based programming and design patterns
+that complement SAS DI Studio&#39;s metadata-driven environment. We present a set of best practices that improve code
+maintainability, reduce redundancy, and enhance troubleshooting and reusability. Additionally, we explore how certain
+code-generation techniques can negatively impact Oracle database performance and show how simple architectural
+decisions—such as leveraging pushdown optimization, proper index usage, and transactional contr</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Saikrishnareddy Yengannagari</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Managing CDISC-controlled terminology is a critical yet time-intensive task in clinical trials data processing. This paper
+introduces a SAS macro that automates the retrieval, filtering, and integration of CDISC codelists directly from public
+repositories. The macro dynamically fetches the latest terminology versions, supports flexible filtering by domain or variable,
+and outputs user-friendly datasets for immediate use. By eliminating manual downloads and reducing errors in terminology
+handling, this tool enhances efficiency and compliance in clinical data workflows. This paper will detail the macro’s design,
+demonstrate its application through real-world examples, and discuss its potential to streamline controlled terminology
+management.
+
+Github URL: https://github.com/kusy2009/getCDISCCOdelist.git
+&amp;
+https://github.com/kusy2009/Codelist-Genius.git</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Saikrishnareddy Yengannagari</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Error prevention is a cornerstone of robust SAS programming, especially in high-stakes environments like clinical data analysis.
+This paper presents a SAS macro designed to implement defensive programming practices by validating macro parameters,
+dataset existence, and variable availability before execution. The macro proactively identifies potential issues, providing
+detailed error messages that help programmers address problems early in the development cycle. Through practical examples
+and case studies, this paper demonstrates how integrating defensive checks into SAS workflows can reduce debugging time,
+improve code reliability, and ensure smoother project execution.
+
+Github URL:
+[https://github.com/kusy2009/sas-defensive-check-macro]
+(https://github.com/kusy2009/sas-defensive-check-macro.git)
+
+Note: The abstract for this paper was generated with AI
+assistance, while the underlying research, ideas, and technical implementation are my original work.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Louise Hadden</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">SAS® provides myriad opportunities for customizing programs and processes, including a wide variety of system options that
+can control and enhance SAS code from start to finish. This paper and presentation demonstrates methods of obtaining
+information on SAS system options, and moves on to fully explicate ten SAS system option hacks, from COMPRESS to
+XWAIT. System options are highly dependent on platforms, security concerns, SAS versions and products: dependencies and
+defaults will be discussed. SAS practitioners will gain a deeper understanding of the powerful SAS system options they&#39;ve
+seen, used, and automatically included in their code. This presentation is suitable for all skill and experience levels; platform
+differences are part of the discussion.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Ricky Norman</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">This is a presentation of the use of SAS Hash Objects I developed and have been
+using for over 15 years. Years ago, I was
+very excited to see SAS Institute
+continue to provide innovative solutions, providing an incredibly powerful and
+versatile
+alternative to the array! SQL provides a summary output one query at a
+time, but with SAS Data Step, the number that can be
+output simultaneously is
+virtually unlimited.
+
+Finally, once the user fully tests their modified version of these SAS
+Macros,
+they should be placed in an SAS Autocall library for easy and efficient re-call.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Tejalkumari Tailor</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">SAS catalogs play a crucial role in organizing formats, macros, and other components that support efficient and consistent
+programming - particularly in clinical trials where standardization is essential. However, many programmers aren’t fully aware of
+how catalogs work or how to manage them effectively.
+
+This session will introduce the fundamentals of SAS catalog
+structure, demonstrate how to create and retrieve catalog entries, and offer practical tips for moving catalogs between projects.
+You’ll learn how catalogs can reduce redundancy, simplify code management, and improve collaboration across programming
+teams.
+
+Whether you’re just beginning to explore SAS catalogs or looking to optimize your existing processes, this
+presentation will provide you with the tools and insights needed to make the most of this powerful resource.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Bart Jablonski</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">A macro variable array is a jargon term for a list of macro variables with a common prefix and numerical suffixes. Macro arrays
+are valued by advanced SAS programmers and often used as ”driving” lists, allowing sequential metadata for complex or
+iterative programs. Use of macro arrays requires advanced macro programming techniques based on indirect reference (aka,
+using multiple ampersands &amp;&amp;), which may intimidate less experienced programmers.
+
+The aim of the paper is to introduce
+the macroArray SAS package. The package facilitates a solution that makes creation and work with macro arrays much easier.
+It also provides a ”DATA-step-arrays-like” interface that allows use of macro arrays without complications that arise from
+indirect referencing. Also, the concept of a macro dictionary is presented, and all concepts are demonstrated through use
+cases and examples.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Kirk Paul Lafler</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Whether you are a novice or experienced SAS® programmer with responsibility for the support of your organization’s legacy
+applications, programs and code, assistance is available to help modernize and streamline code for the 21st century and
+beyond. This paper explores popular constructs, statements, functions, algorithms, operators, methods, expressions,
+programming techniques and approaches users have available to update and modernize legacy applications and program
+code first introduced as far back as the 1970’s. Attendees explore a variety of techniques to streamline, scale and modernize
+code constructs, statements, functions, algorithms, and legacy applications and program code.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Bart Jablonski</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Sometimes there is a need to share a SAS macro in a way that the execution of the macro is possible, but at the same time the
+source code is not “readable” (e.g., the code is a proprietary solution).
+
+In this article, a programming-based solution utilizing
+encrypted user-written functions (FCMP) and SAS data sets, which gives requested effect, will be explained. Furthermore, the
+solution (in contrary to operating-system-dependent SAS catalogs) allows for code exchange between different operating
+systems!
+
+As a cherry on top, the GSM (Generate Secure Macros) package, which allows users to create secured macros
+stored in SAS Proc FCMP functions and share them between different operating systems without showing their code, will be
+presented.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Bipul Adhikari</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">According to the World Health Organization (WHO), COPD caused 3.5 million deaths, accounting for approximately 5% of all
+global deaths (WHO). Recent studies have shown a significant correlation between environmental pollutants, such as Volatile
+Organic Compounds (VOCs) (Lv et al.) and Per- and polyfluoroalkyl substances (PFAS), and COPD. Although robust studies
+have established a strong correlation between VOCs and COPD, research on PFAS remains limited, with few published
+results. However, these study only conducted a statistical analysis to correlate the variables, and there is still a lack of research
+utilizing machine learning models to predict COPD based on PFAS exposure levels. This gap is exactly what my research
+seeks to address. In this study we conducted a statistical analysis and obtained comparable results, confirming the correlation
+between PFAS and COPD. The central scholarly question now is how effectively machine learning models can predict this
+risk. Machine learning models could enable early</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Ron Smith</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Traditionally, the purpose of having a Phase I / Phase 2 dose-finding design in cancer clinical studies has been to find the
+Maximum Tolerated Dose based solely on the toxicity of the study drug. Traditional designs, considering a Dose Limiting
+Toxicity, implicitly assumes a monotonically increasing relationship between dose and response efficacy. However, for targeted
+investigative drug products, few toxicity affects may arise prior to the most efficacious dose.This challenges the conventional
+principle of &quot;more is better until toxic&quot; . Instead, the Optimal Biological Dose, which is defined as the lowest dose with the
+highest rate of efficacy while safe, is a more appropriate endpoint.
+
+   In this presentation we will discuss the use of Bayesian
+Optimal Interval (BOIN) algorithms in finding the Optimal Biological Dose in Phase 1 or combination Phase 1/2 clinical trials.
+The review of the types of drugs that will produce low-dose high-efficacy treatment outcomes will be followed by a brief
+introduction to the</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Mostafa Zahed,  Maryam Skafyan</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">This study applies multivariate time series analysis to compare age-standardized death rates for lung and colorectal cancer in
+the United States from 1950 to 2021, using data from Our World in Data. Lung cancer, the leading cause of cancer mortality,
+and colorectal cancer, the second most common, are analyzed to uncover long-term trends, potential seasonal patterns, and
+interdependencies. Vector Autoregression (VAR) models capture joint dynamics, with cointegration analysis to detect long-run
+equilibrium relationships and Granger causality tests to assess predictive relationships between the series. Impulse response
+functions and variance decomposition explore how shocks in one series affect the other. The study also generates forecasts for
+future years, offering insights into potential trends in cancer mortality. Hypothesis testing assumes stationarity (verified via
+Augmented Dickey-Fuller tests), no residual autocorrelation (checked with Ljung-Box tests), and, where applicable, normality of
+residuals (asses</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Maryam Skafyan,  Mostafa Zahed</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Ecological Momentary Assessment (EMA) offers a robust method for examining the real-time dynamics of marijuana craving
+and its influence on use frequency. This study aims to investigate how between-subject differences in average craving levels
+and within-subject variability in craving are associated with the frequency of marijuana use.
+
+EMA data were collected from
+100 participants over a 6-month period, with 5 daily assessments capturing self-reported craving intensity (0-10 scale),
+marijuana use (yes/no), mood, anxiety, and contextual details such as time and location. Mixed-effects location scale models
+will be employed to model both the mean and variance of craving, enabling an analysis of how individual differences and
+time-varying factors influence craving and its relationship with use frequency.
+
+We hypothesize that participants with higher
+average craving levels (between-subject variation) will report more frequent marijuana use. Additionally, greater within-subject
+variability in craving is expected</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Harjot Singh Sidhu,  Harmandeep Sharma,  Arnab Bho</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Hemp (Cannabis sativa L.) is a sustainable crop valued for its high-quality fiber used in textiles and bio-based materials.
+Traditional methods for assessing N status and physiological traits such as photosynthesis, stomatal conductance, and
+transpiration are invasive and time-consuming. To overcome these limitations, a field experiment was conducted using a
+randomized complete block design with a split-plot layout and four replications. Main plots included two fiber hemp varieties
+(Yuma and Sama), while subplots consisted of three nitrogen treatments: control (0 kg N ha?¹), inorganic (urea), and integrated
+(urea + NatureSafe), applied at 180 kg N ha?¹ in split doses. Weekly UAV flights using a WingtraOne GEN II with a MicaSense
+RedEdge-P multispectral camera captured imagery to generate vegetation indices such as NDVI, GNDVI, SIPI2, and BNDVI.
+Ground-based data on SPAD (chlorophyll), photosynthesis, transpiration, and stomatal conductance were collected as
+reference. These were modeled in SAS Viya using deci</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Shubham Choudhary,  Amit Navare</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">This study analyses the CDC&#39;s Behavioral Risk Factor Surveillance System (BRFSS) data through a generational lens with
+Random Forest classification, and provides very accurate predictions of mental health outcomes. Our new 0-100 risk score
+approach predicted that the older generations reported more days of poor mental health, while younger generations used
+telemedicine more and use drugs more. There were also differences among generations on some of the key predictors
+including, but not limited to, substance use, overall health, financial hardship, and social support. The model helps healthcare
+organizations design appropriate, data driven strategies for multi factor approaches, and generate targeted interventions that
+combine risk factors, social determinants, and health behaviors. This is fundamentally important since there is a void in the
+systematic generational analysis of mental health using population surveillance data to inform the implementation of mental
+health enhancement initiatives, and this has</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Alan Mann</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">A data-driven design for inmate classification in corrections is proposed as a fact-based, analytic, modeled alternative to the
+possibility of confirmation bias in risk assessment of prisoners entering incarceration, using retrospective assessment of
+recidivism risk measures of inmate data from New York State and Florida respectively. A framework utilizing the CRISP-DM
+(Cross-Industry Standard Process Model for Data Mining) from Abbott, D. (2014), was employed, deriving Key Performance
+Indicators (KPIs) of Class Severity and predicted Custody Risk groupings based upon Offense and Severity of New York State
+Offense Classification sentencing guidelines (Strazzullo Law Firm., n.d.). While initial findings from New York indicated a
+random and highly subjective pattern of classification, with class A misdemeanor offenders placed in Maximum custody, and
+class A-I felony offenders in Minimum, subsequent identification of objective markers in the New York and Florida data proved
+a more accurate, stronger scored, cate</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Jun Liu</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">In this paper a semi-parametric approach is developed to model non-linear relationships in time series data using polynomial
+splines. Polynomial splines require very little assumption about the functional form of the underlying relationship, so they are
+very flexible and can be used to model highly non-linear relationships. Polynomial splines are also computationally very
+efficient. The serial correlation in the data is accounted for by modelling the noise as an autoregressive integrated moving
+average (ARIMA) process, by doing so, the efficiency in nonparametric estimation is improved and correct inferences can be
+obtained. The explicit structure of the ARIMA model allows the correlation information to be used to improve forecasting
+performance. An algorithm is developed to automatically select and estimate the polynomial spline model and the ARIMA
+model through backfitting. This method is applied on a real-life data set to forecast hourly electricity usage. The non-linear
+effect of temperature on hourly ele</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Amita Patil</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">This module will cover conducting a multiple logistic regression using SAS and SPSS. It will be an overview of a) framing a
+research question, b) running all assumptions,  c) data transformations, d) interpretation, e) reporting results, and f) writing in
+APA style for publication.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Brian Varney</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Several discrepancies have been discovered in statistical analysis results between different programming languages, even in
+fully qualified statistical computing environments. Subtle differences exist between the fundamental approaches implemented
+by each language, yielding differences in results which are each correct in their own right. The fact that these differences exist
+causes unease on the behalf of sponsor companies when submitting to a regulatory agency, as it is uncertain if the agency will
+view these differences as problematic. In its Statistical Software Clarifying Statement, the US Food and Drug Administration
+(FDA) states that it “FDA does not require use of any specific software for statistical analyses” and that “the computer software
+used for data management and statistical analysis should be reliable.” Observing differences across languages can reduce the
+analyst’s confidence in reliability and, by understanding the source of any discrepancies, one can reinstate confidence in
+reliability.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Debarshi Datta,  Subhosit Ray</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Background: Patients with COVID-19 who were admitted to the hospital underwent ventilation, ICU, and IMCU care, either as a
+co-occurring or consecutive condition. Consequently, either they were discharged from the hospital or died from the disease.
+An AI-driven decision support system can give a better understanding to identify important features of severe conditions. A
+trained AI model can predict whether a patient in the ICU may require ventilation or may either be discharged or die due to the
+illness. Methods: A chain classifier was trained to predict multi-label outcomes on 5,371 patients with COVID-19 from South
+Florida using a Random Forest multi-label classifier trained on sociodemographic characteristics, pre-existing health conditions,
+and medication data collected on admission. Using Shapley Additive exPlanations (SHAP) interpretability we identified the
+important features implicated across four severity classes in the multi-label. Results: The model achieved 70% accuracy, and
+an AUC of 0.73 for all</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Saikrishnareddy Yengannagari</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Rigorous quality control (QC) of SAS log and output listing files is essential in clinical trial programming to ensure accurate,
+reproducible results and regulatory compliance. I present sasloglstchecker, a new open-source utility that automates
+comprehensive log and lst files validation, significantly reducing the time spent on manual log &amp; lst checks. The utility
+systematically scans logs for critical issues (e.g.,
+&quot;ERROR&quot; or &quot;WARNING&quot;) and flags even subtle SAS notes (like uninitialized
+variables), and visually summarizes PROC COMPARE outcomes, clearly indicating passed and failed checks for quick
+interpretation and resolution. Open-sourced on GitHub, it fosters community collaboration and continuous improvement. This
+conference session will feature a step-by-step demonstration and real-world examples, equipping attendees to readily integrate
+sasloglstchecker into their workflows. This pragmatic approach boosts productivity, ensures high-quality outputs, and reinforces
+robust compliance with clinical data</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Dan Heath</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">For many years, SAS users have had the ability to automatically produce graphics with their tabular output from SAS analytic
+procedures using the ODS Graphics system. Many of these procedures provide options for controlling the content and
+appearance of these graphics. In addition, the ODS system provides statements for controlling what output is displayed, as well
+as a means for controlling the order of that output.
+
+SAS Viya  and SAS Workbench users have had these same capabilities
+when running SAS programs, but not when running Python programs — until now. Python users can now have graphics
+generated automatically from models that have graphics support. In addition, models now contain a new method called
+customize_results() that gives you the ability to control aspects of the graphics output, as well as filter tabular results and
+control result output order — all without rerunning the model computations.
+
+Come see how this new functionality can
+improve the analysis process and help simplify the task of rep</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">David Bosak</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">It is very common to use spreadsheets to drive batch jobs in SAS.  The spreadsheets allow you to easily control which
+programs are run, and in what order.  They also provide a centralized place to store titles, footnotes, and other information
+used in the programs.  Is it possible to create a similar system in R?  Yes!  This paper will demonstrate how to do it using a
+typical spreadsheet layout, and reports written with the SASSY set of R packages.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Eric Qi,  Suhas Sanjee</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Currently we rely heavily on RTF technology to create tables and listings. Microsoft has transitioned away from RTF in favor of
+the XML-based Office Open XML (DOCX) format as the default standard for its Office suite. DOCX is based on the Office Open
+XML standard, which is a modern, internationally-recognized standard for Office documents. DOCX format offers better
+long-term compatibility and interoperability with other modern Office productivity software. The DOCX format also offers
+superior support for structured documents. SAS can support generation of DOCX files using ODS. However, this approach
+doesn’t meet all the requirements of our stakeholders. It lacks the level of customization needed to accurately control page
+breaks and create non-editable tables, which are  necessary features to prevent accidental edits. In this paper, we describe an
+efficient approach using Office Open XML framework, SAS macros and Linux commands to create non-editable tables in
+DOCX format. A DOCX file consists of multiple XML</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Tongda Che,  Laura Frederick,  Peng Wan</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">In clinical trial analysis, managing complex dataset and code dependencies is crucial for ensuring traceability and compliance
+with regulatory guidelines. Traditional methods of tracking these dependencies often require significant manual effort, leading
+to potential errors and inefficiencies. This paper presents an innovative R Shiny application designed to streamline dependency
+tracking among ADaM (Analysis Data Model) datasets, SAS code, and output results.
+
+The application provides a dynamic,
+real-time view of all outputs associated with a given study protocol. Utilizing log files, it identifies and displays all relevant ADaM
+datasets and macro programs linked to each output, thereby enhancing transparency throughout the development process.
+Additionally, the app uses file timestamps to automatically flag outdated files, significantly reducing the reducing the risk of
+errors and improving the accuracy of final outputs. With integrated API functionality, users can effortlessly rerun any outdated
+dependency</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Osmel Brito,  Jean Paul Filpo Molin</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">In the journey to becoming a more data-driven organization, many enterprises face a common hurdle: legacy systems and
+modern analytics tools don&#39;t always speak the same language. In our use case, we have core data pipelines built in SAS,
+paired with an expanding appetite for dynamic reporting in Power BI. The traditional workarounds involve duplicate data
+movement to cloud platforms, often resulting in added cost and complexity.
+
+Our guide showcases a practical,
+business-driven approach to bridging SAS and Power BI without massive infrastructure changes or convoluted ETL pipelines.
+By harnessing the power of Python&#39;s SASPY library, we recreated key SAS EG datasets and seamlessly fed them into Power
+BI dashboards, automating the proceed end-to-end. This solution not only streamlined access for business users but also
+improved agility and opened the door to more advanced analytics down the line.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Lleyton Seymour</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">ODS, or the Output Delivery System, has become the benchmark for SAS users over the past 25 years. However, in a
+competing landscape saturated with dashboards, charts, and figures-how does someone set apart their visuals from the
+rest?
+
+This paper explores transforming standard ODS output into publication-ready visuals using SAS, open-source tools,
+and design thinking skills. The first example uses strictly SAS with PROC TEMPLATE to create a more modern output focusing
+on color, type, and layout. The second example utilizes the open-source Python library Matplotlib to highlight titling,
+annotations, and key design choices to enhance your data&#39;s story.
+
+Whether used for internal reporting, academic
+publications, or your personal blog, curated visuals help tell an interesting story while engaging your audience.</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Jim Blum</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Creating high-quality, reproducible training materials for technical instruction can be time-consuming and complex. This
+presentation introduces a streamlined workflow that integrates SAS, GitHub, and Overleaf to automate many aspects of the
+generation and management of instructional documents, with a focus on reproducibility, version control, and collaborative
+editing.
+Participants will explore how custom SAS code can be used to convert analytical outputs and code snippets into
+LaTeX-compatible formats, enabling seamless integration with Overleaf for professional-quality documentation. The workflow
+also incorporates custom LaTeX style files to ensure consistency and clarity across materials. GitHub serves as the backbone
+for version control and collaboration, allowing instructors to manage updates, track changes, and share materials with students
+or co-authors efficiently.
+This session will include live demonstrations and interactive components, allowing attendees to
+engage with the tools as learners. By the</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Troy Hughes</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Software interoperability describes the ability of software systems, components, and languages to communicate effectively with
+each other, and must be prioritized in today’s multilingual and open-source development environments. PROC FCMP, the
+SAS® Function Compiler, enables Python functions to be wrapped in (and called from) SAS user-defined functions (and
+subroutines), and the full panoply of SAS environments supports FCMP—including SAS Display Manager, SAS Enterprise
+Guide, SAS Studio, SAS Viya, and the latest Cary show pony, SAS Workbench. Productivity and the pace of development are
+maximized when existing open-source code—such as Python user-defined functions—can be run natively from a Python
+interactive development environment (IDE) rather than having to be needlessly recoded into the Base SAS language. This text
+demonstrates SAS and Python user-defined functions that collaboratively call the Google Maps Platform APIs to geocode
+street addresses into latitude/longitude coordinates, and to calculate dri</td>
+</tr>
+<tr>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">LeRoy Bessler</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Scatter plots and bar charts are part of the package, but what sets this paper apart are ways to use PROC SGMAP and ODS
+HTML5 that have never been seen before. Inherent practical difficulties in using choropleth maps (i.e., maps that have
+countries color-coded based on response value: population, case count, mortality count, case rate, or mortality count) have
+been overcome.
+
+To programmatically color the country areas is NOT a problem. Seeing the color coding CAN BE. Even
+FINDING a tiny country on a map is always a challenge. The range of the world&#39;s land areas includes 2 sq. mi. (0.8 sq. km.) for
+Monaco. On a web-enabled map, if you cannot find a country, you cannot raise its mouseover text. In this presentation, you will
+see the solution.
+
+My actually usable web-enabled atlas for COVID-19 includes maps for the world and for each continent
+except Antarctica. To make the broad expanse of Asia more easily explorable, there are five regional maps. There are also
+maps for the Central America mainland and the Ca</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+</body>
+</html>

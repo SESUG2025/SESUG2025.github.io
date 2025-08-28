@@ -1664,13 +1664,13 @@ TD, TH {vertical-align: top }
 <a name="IDX"></a>
 <table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
 <tr>
-<td class="l systemtitle" style=" font-family: 'Montserrat Black'; font-size: 18pt; font-style: normal; font-weight: normal;">Selective SAS Option Restoration with PROC COMPARE and PROC OPTLOAD</td>
+<td class="l systemtitle" style=" font-family: 'Montserrat Black'; font-size: 18pt; font-style: normal; font-weight: normal;">Ensure complete raw data to SDTM mapping: a SAS macro approach for quality control</td>
 </tr>
 <tr>
-<td class="l systemtitle2" style=" font-family: Montserrat; font-size: 16pt; font-style: normal; font-weight: normal;">September 24, 2025: 1:30 PM - 2:00 PM</td>
+<td class="l systemtitle2" style=" font-family: Montserrat; font-size: 16pt; font-style: normal; font-weight: normal;">September 23, 2025: 9:30 AM - 10:00 AM</td>
 </tr>
 <tr>
-<td class="l systemtitle3" style=" font-family: Montserrat; font-size: 16pt; font-style: normal; font-weight: normal;">FCS, BREAK2</td>
+<td class="l systemtitle3" style=" font-family: Montserrat; font-size: 16pt; font-style: normal; font-weight: normal;">Data Collection, Management, and Manipulation (DCMM), Executive Dining Room #3</td>
 </tr>
 </table><br>
 <div>
@@ -1688,14 +1688,16 @@ TD, TH {vertical-align: top }
 </thead>
 <tbody>
 <tr>
-<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">John King</td>
-<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Abstract
-Managing system options in SAS macros is often error-prone, especially when global settings are
-altered temporarily. This paper presents a macro %u_optstore that allows for the safe saving and selective
-restoration of only the SAS options that have changed. By combining PROC OPTSAVE, PROC
-COMPARE, and PROC OPTLOAD, this approach minimizes risk, supports nested macros, and provides
-debugging transparency. It also avoids known issues associated with full option reloads, such as unwanted
-resets to session defaults.</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Cally Davidson,  Eric Howard</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Accurate and complete mapping of raw clinical data to Study Data Tabulation Model (SDTM) domains is essential for
+high-quality regulatory submissions. A common oversight occurs when raw datasets contain observations that appear only later
+in the study, such as pregnancy data within the RP domain, leading to incomplete or missing SDTM domains if initial mapping
+was based on earlier data snapshots. This paper highlights a SAS macro, called search_raw, developed to automate the
+quality control (QC) process by ensuring all relevant raw data sources with observed records are mapped to SDTM domains.
+The macro checks for the presence of data from raw sources in the .SAS logs and summarizes SDTM input source datasets,
+while flagging any unmapped data streams. The RP domain serves as a case study, illustrating how subjects with no
+pregnancies reported early in the study can be missed if mappings aren&#39;t revisited. By automating these checks, the macro
+enhances traceability, reduces manual review, and ensures complete a</td>
 </tr>
 </tbody>
 </table>
