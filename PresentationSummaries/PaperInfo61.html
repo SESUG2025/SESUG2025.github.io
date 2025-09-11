@@ -1664,7 +1664,7 @@ TD, TH {vertical-align: top }
 <a name="IDX"></a>
 <table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
 <tr>
-<td class="l systemtitle" style=" font-family: Montserrat; font-size: 18pt; font-style: normal; font-weight: bold;">Last Observation Carried Forward (LOCF) in Longitudinal Pharmaceutical and Clinical Trials Studies: Adopting a Functional Approach to Imputing Missing Values Using PROC FCMP, the SAS Function Compiler</td>
+<td class="l systemtitle" style=" font-family: 'Montserrat Black'; font-size: 18pt; font-style: normal; font-weight: normal;">Last Observation Carried Forward (LOCF) in Longitudinal Pharmaceutical and Clinical Trials Studies: Adopting a Functional Approach to Imputing Missing Values Using PROC FCMP, the SAS Function Compiler</td>
 </tr>
 <tr>
 <td class="l systemtitle2" style=" font-family: Montserrat; font-size: 16pt; font-style: normal; font-weight: normal;">September 23, 2025: 10:30 AM - 11:00 AM</td>
@@ -1689,15 +1689,19 @@ TD, TH {vertical-align: top }
 <tbody>
 <tr>
 <td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Troy Hughes</td>
-<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Last observation carried forward (LOCF) is a ubiquitous method of imputing missing values in longitudinal studies, and is
-commonly implemented when a subject (i.e., a patient or participant) misses a scheduled visit, and data cannot be collected (or
-generated). In general, the last “valid” value from a previous visit is retained for the later visit on which the data could not be
-obtained, and this conservative estimation succeeds in cases where the actual value would have been little changed. Nuanced
-criteria may stipulate which prior values count as “valid” (e.g., after the start of treatment) as well as for how long (e.g., how
-many days, visit weeks, consecutive missed visits) a value can be used to impute other values. Given these complexities,
-LOCF solutions implemented in SAS® historically adopt a procedural approach, and often require multiple DATA steps and/or
-procedures to impute data both across observations and within subjects. Conceptually, however, a functional approach can be
-envisioned in which</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Last observation carried forward (LOCF) is a ubiquitous method of imputing missing values in longitudinal studies,
+and is commonly implemented when a subject (i.e., a patient or participant) misses a scheduled visit, and data
+cannot be collected (or generated). In general, the last “valid” value from a previous visit is retained for the later
+visit on which the data could not be obtained, and this conservative estimation succeeds in cases where the actual
+value would have been little changed. Nuanced criteria may stipulate which prior values count as “valid” (e.g., after
+the start of treatment) as well as for how long (e.g., how many days, visit weeks, consecutive missed visits) a
+value can be used to impute other values. Given these complexities, LOCF solutions implemented in SAS®
+historically adopt a procedural approach, and often require multiple DATA steps and/or procedures to impute data
+both across observations and within subjects. Conceptually, however, a functional approach can be envisioned in
+which LOCF could be calculated using a function call—that is, delivering the same functionality through a single
+line of code while hiding (abstracting) the complexity of the calculation inside the function’s definition. The FCMP
+procedure can deliver this functionality, enabling SAS practitioners to build user-defined functions—even those
+that perform inter-observation calculations.</td>
 </tr>
 </tbody>
 </table>
