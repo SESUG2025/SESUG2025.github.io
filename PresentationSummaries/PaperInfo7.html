@@ -3,7 +3,7 @@
 <head>
 <meta name="Generator" content="SAS Software Version V.04.00, see www.sas.com">
 <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-<title>SAS Output</title>
+<title>PaperInfo7</title>
 <style type="text/css">
 <!--
 .accessiblecaption
@@ -1689,15 +1689,20 @@ TD, TH {vertical-align: top }
 <tbody>
 <tr>
 <td class="l data" style=" font-family: Montserrat; font-size: 14pt; width: 2.5in;">Richann Watson</td>
-<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Within the life sciences, programmers frequently have to deal with dates in order to determine durations and number of days
-from a reference point. Within Study Data Tabulation Model (SDTM) domains, Clinical Data Interchange Standards Consortium
-(CDISC) has implemented the use of the International Organization for Standardization (ISO) format, ISO® 8601, for
-datetimes. While this helps to standardize how dates and times are captured so that there is no confusion as to what the date
-represents, it does not help from an analysis perspective. Within SDTM, these ISO dates are character dates and sometimes
-have missing components. From an analysis purposes the dates need to be converted to a numeric date and sometimes
-imputation of partial dates is needed. There are formats that can convert a complete ISO date to numeric date, but what if the
-date is a partial date. While SAS® has myriad functions, there is no function that will help with this conversion and imputation.
-Fortunately, with the use of the FCMP proced</td>
+<td class="l data" style=" font-family: Montserrat; font-size: 14pt;">Within the life sciences, programmers frequently have to deal with dates in order to determine durations and
+number of days from a reference point. Within Study Data Tabulation Model (SDTM) domains, Clinical Data
+Interchange Standards Consortium (CDISC) has implemented the use of the International Organization for
+Standardization (ISO) format, ISO® 8601, for datetimes. While this helps to standardize how dates and times are
+captured so that there is no confusion as to what the date represents, it does not help from an analysis
+perspective. Within SDTM, these ISO dates are character dates and sometimes have missing components. From
+an analysis purposes the dates need to be converted to a numeric date and sometimes imputation of partial dates
+is needed. There are formats that can convert a complete ISO date to numeric date, but what if the date is a
+partial date. While SAS® has myriad functions, there is no function that will help with this conversion and
+imputation. Fortunately, with the use of the FCMP procedure, we are able to create our own custom functions to
+help achieve our desired goal. This paper illustrates the process of building a custom function that will take a date
+that is captured in the appropriate ISO format in SDTM (--DTC) and convert it to numeric date while also imputing
+any missing components. In addition, it will set the corresponding date imputation variable (--DTF) to the correct
+level.</td>
 </tr>
 </tbody>
 </table>
